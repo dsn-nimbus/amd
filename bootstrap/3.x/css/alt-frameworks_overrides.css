@@ -163,6 +163,15 @@
   border-radius: 0;
 }
 
+.navbar {
+    border-radius: 0;
+    border: none;
+}
+
+.navbar .navbar-toggle {
+    border: none;
+}
+
 select.ng-invalid.ng-dirty {
   outline: 0;
 }
