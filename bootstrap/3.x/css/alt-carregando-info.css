@@ -1,0 +1,50 @@
+#carregando-info-container {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  cursor: progress;
+}
+
+#carregando-info-container,
+#carregando-info-coberta,
+#carregando-info-aviso {
+  position: fixed;
+}
+
+#carregando-info-container,
+#carregando-info-coberta {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#carregando-info-container {
+  z-index: 9999;
+}
+
+#carregando-info-coberta {
+  background-color: #000;
+  opacity: .6;
+}
+
+#carregando-info-aviso {
+  top: 10%;
+  left: 35%;
+  font-size: 100px;
+  color: #fff;
+}
+
+@media (min-width: 40em) {
+  #carregando-info-aviso {
+    left: 40%;
+  }
+}
+
+@media (min-width: 50em) {
+  #carregando-info-aviso {
+    left: 45%;
+  }
+}

@@ -1,0 +1,42 @@
+.texto-perigo {
+  color: #d43f3a;
+}
+
+.botao-acao-tabela {
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.sombra-secundaria {
+  box-shadow: 0 -1px 0 #e5e5e5,
+              0 0 2px rgba(0,0,0,.12),
+              0 2px 4px rgba(0,0,0,.24);
+}
+
+.sombra-principal {
+  box-shadow: 0 0 4px rgba(0,0,0,.14),
+              0 4px 8px rgba(0,0,0,.28);
+}
+
+.ng-invalid.ng-dirty {
+  border: 1px solid #d43f3a;
+  box-shadow: 0 0 1px rgb(212, 63, 58);
+}
+
+.fonte-pequena {
+  font-size: 13px;
+}
+
+.titulo-view {
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  color: #777;
+}
+
+select {
+  border-color: #ccc;
+}
+
+body {
+  font-family: "Open Sans";
+}
