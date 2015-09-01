@@ -33,6 +33,13 @@
   color: #777;
 }
 
+.nao-selecionavel {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 select {
   border-color: #ccc;
 }
