@@ -1,4 +1,4 @@
-#rodape {
+#alt-rodape {
   padding: 15px 25px;
   overflow: hidden;
   background-color: rgba(43, 120, 158, 0.86);
@@ -8,6 +8,6 @@
   z-index: 7;
 }
 
-#rodape a {
+#alt-rodape a {
   color: #fff;
 }

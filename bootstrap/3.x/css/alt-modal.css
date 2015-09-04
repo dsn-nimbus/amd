@@ -1,16 +1,16 @@
-.modal-body .espacamento-bottom {
+.modal-body .alt-espacamento-bottom {
   margin-bottom: 10px;
 }
 
-.modal-body .grande-espacamento-bottom {
+.modal-body .alt-grande-espacamento-bottom {
   margin-bottom: 30px;
 }
 
-.modal-body .espacamento-top {
+.modal-body .alt-espacamento-top {
   margin-top: 10px;
 }
 
-.modal-body .grande-espacamento-top {
+.modal-body .alt-grande-espacamento-top {
   margin-top: 30px;
 }
 
@@ -28,11 +28,11 @@
   font-size: 20px;
 }
 
-.modal-header.cor-principal {
+.modal-header.alt-cor-principal {
   background-color: #558B2F;
 }
 
-.modal-header.cor-principal .modal-title {
+.modal-header.alt-cor-principal .modal-title {
   color: #fff;
 }
 
@@ -40,7 +40,7 @@
   margin-right: 20px;
 }
 
-.modal-header.cor-principal .close {
+.modal-header.alt-cor-principal .close {
   color: #fff;
   opacity: .8;
 }
@@ -63,7 +63,7 @@
 
 
 @media (min-width: 768px) {
-  .modal-medio {
+  .alt-modal-medio {
       width: 750px;
   }
 }

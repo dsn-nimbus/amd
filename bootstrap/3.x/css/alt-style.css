@@ -1,19 +1,19 @@
-.texto-perigo {
+.alt-texto-perigo {
   color: #d43f3a;
 }
 
-.botao-acao-tabela {
+.alt-botao-acao-tabela {
   font-size: 20px;
   padding: 0 5px;
 }
 
-.sombra-secundaria {
+.alt-sombra-secundaria {
   box-shadow: 0 -1px 0 #e5e5e5,
               0 0 2px rgba(0,0,0,.12),
               0 2px 4px rgba(0,0,0,.24);
 }
 
-.sombra-principal {
+.alt-sombra-principal {
   box-shadow: 0 0 4px rgba(0,0,0,.14),
               0 4px 8px rgba(0,0,0,.28);
 }
@@ -23,17 +23,17 @@
   box-shadow: 0 0 1px rgb(212, 63, 58);
 }
 
-.fonte-pequena {
+.alt-fonte-pequena {
   font-size: 13px;
 }
 
-.titulo-view {
+.alt-titulo-view {
   border-bottom: 1px solid #ddd;
   font-size: 20px;
   color: #777;
 }
 
-.nao-selecionavel {
+.alt-nao-selecionavel {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
