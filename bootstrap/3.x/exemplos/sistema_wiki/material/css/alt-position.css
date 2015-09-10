@@ -1,0 +1,71 @@
+.alt-overflow-hidden {
+  overflow: hidden;
+}
+
+.alt-display-block {
+     display: block;
+ }
+
+.alt-sem-margin-top {
+  margin-top: 0;
+}
+
+.alt-sem-padding {
+  padding: 0;
+}
+
+.alt-visibility-hidden {
+  visibility: hidden;
+}
+
+.alt-full-width {
+  width: 100%;
+}
+
+.alt-sem-padding-direita {
+  padding-right: 0;
+}
+
+.alt-sem-padding-esquerda {
+  padding-left: 0;
+}
+
+.alt-sem-padding-em-cima {
+  padding-top: 0;
+}
+
+.alt-sem-padding-embaixo {
+  padding-bottom: 0;
+}
+
+.alt-espacamento-bottom {
+  margin-bottom: 15px;
+}
+
+.alt-espacamento-top {
+  margin-top: 15px;
+}
+
+.alt-espacamento-right {
+  margin-right: 15px;
+}
+
+.alt-espacamento-left {
+  margin-left: 15px;
+}
+
+.alt-container-medio {
+  max-width: 700px;
+}
+
+.alt-container-centralizado {
+  margin: 0 auto;
+}
+
+.alt-vertical-align-top {
+    vertical-align: top;
+}
+
+select {
+  padding: 5px !important;
+}

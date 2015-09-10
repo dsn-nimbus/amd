@@ -40,6 +40,10 @@
     user-select: none;
 }
 
+.alt-espacamento-esquerda {
+  margin-left: 15px;
+}
+
 select {
   border-color: #ccc;
 }
