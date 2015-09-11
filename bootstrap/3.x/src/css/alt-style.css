@@ -40,6 +40,10 @@
     user-select: none;
 }
 
+.alt-hand {
+  cursor: pointer;
+}
+
 select {
   border-color: #ccc;
 }

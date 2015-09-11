@@ -40,8 +40,8 @@
     user-select: none;
 }
 
-.alt-espacamento-esquerda {
-  margin-left: 15px;
+.alt-hand {
+  cursor: pointer;
 }
 
 select {

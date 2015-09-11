@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>sistema_exemplo</title>
+  <link rel="stylesheet" href="material/css/bootstrap.css" />
+  <link rel="stylesheet" href="material/css/alt-frameworks_overrides.css" />
+  <link rel="stylesheet" href="material/css/alt-rodape.css" />
+  <link rel="stylesheet" href="material/css/rodape_modificado.css" />
+  <link rel="stylesheet" href="material/css/alt-style.css" />
+  <link rel="stylesheet" href="material/css/alt-position.css" />
+  <link rel="stylesheet" href="material/css/alt-fonts.css" />
+  <link rel="stylesheet" href="material/css/alt-informacoes-usuario-cabecalho.css" />
+</head>
+
+<body>
+
+  <!-- cabeçalho -->
+  <header class="header alt-sombra-primaria" id="alt-cabecalho">
+    <div class="navbar navbar-default" role="navigation">
+      <div>
+
+        <div class="alt-informacoes-usuario-container dropdown alt-hand pull-right">
+          <img src="https://avatars0.githubusercontent.com/u/7040162?v=3&s=40"
+          alt="imagem"
+          class="alt-imagem-usuario-cabecalho alt-hand"
+          data-toggle="dropdown"/>
+
+          <div class="dropdown-menu">
+            <div id="alt-informacoes-usuario-dropdown">
+              <div class="col-xs-4 hidden-xs row">
+                <img src="https://avatars0.githubusercontent.com/u/7040162?v=3&s=40"
+                alt="imagem"
+                class="alt-imagem-usuario-dropdown" />
+              </div>
+
+              <div class="col-xs-12 visible-xs text-center">
+                <img src="https://avatars0.githubusercontent.com/u/7040162?v=3&s=40"
+                alt="imagem"
+                class="alt-imagem-usuario-dropdown" />
+              </div>
+
+              <hr class="visible-xs col-xs-12 alt-hr-separador-info" />
+
+              <div class="col-xs-8 hidden-xs">
+                <p>Fulano da Silva</p>
+                <small class="text-muted">fulano_da_silva@gmail.com</small>
+              </div>
+
+              <div class="col-xs-12 visible-xs text-center">
+                <p>Fulano da Silva</p>
+                <small class="text-muted">fulano_da_silva@gmail.com</small>
+              </div>
+
+              <hr class="visible-xs col-xs-12 alt-hr-separador-info" />
+
+              <hr class="hidden-xs col-xs-12 alt-hr-separador-info" />
+
+              <button type="button"
+                      class="btn btn-default pull-right hidden-xs">Sair</button>
+
+              <button type="button"
+              class="btn btn-default btn-block visible-xs">Sair</button>
+
+              <button type="button"
+                      class="btn btn-default pull-left hidden-xs">Outra Coisa</button>
+
+              <button type="button"
+                      class="btn btn-default pull-right btn-block alt-espacamento-top visible-xs">Outra Coisa</button>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#js-menu-cabecalho">
+            <span class="sr-only">...</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="/">Sistema Wiki</a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="js-menu-cabecalho">
+
+          <ul class="nav navbar-nav">
+            <li><a href="#t1">info1</a></li>
+            <li><a href="#t2">info2</a></li>
+            <li><a href="#t3">info3</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+  <!-- corpo do sistema -->
+  <main class="container">
+    <section id="t1">
+      <h2 class="text-muted">Título com informações adicionais</h2>
+
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex turpis, vulputate fermentum gravida quis, scelerisque quis diam. Aliquam luctus ex et molestie scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec vel sapien ac ante viverra rutrum. Proin efficitur risus id sollicitudin mollis. Aliquam vel dictum dolor. Vestibulum aliquet, ex eget convallis hendrerit, nisi massa elementum dui, non tincidunt quam elit a lorem. Aliquam ut quam faucibus, pretium mauris ac, varius sapien. Praesent nec magna sed tortor congue elementum eu nec purus. Nunc blandit eros magna, eget interdum leo hendrerit vitae. Aenean volutpat ex nisl, id consequat turpis tempor at. Phasellus volutpat vel lectus consequat ultricies.</p>
+
+        <p>Ut posuere tortor eget viverra cursus. Phasellus elementum iaculis ultrices. Curabitur bibendum ut ligula ut placerat. Nunc convallis augue tortor, non interdum dolor malesuada vel. Ut sit amet felis nec nisi fringilla tincidunt in ut dui. Praesent finibus consequat diam porttitor convallis. Nullam eget aliquam justo. Proin aliquet aliquet nulla, sit amet gravida lorem mattis id. Fusce eget purus nunc. Etiam sit amet scelerisque eros. Vestibulum rhoncus, mauris sed dapibus lobortis, massa eros varius quam, vel convallis elit velit vitae dolor. Sed a dapibus magna. Donec aliquet tortor non nibh eleifend rutrum.</p>
+      </article>
+    </section>
+
+    <section id="t2">
+      <h2 class="text-muted">Tabela</h2>
+
+      <article>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <table class="table table-condensed table-striped alt-sombra-secundaria">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>CPF</th>
+              <th>Telefone</th>
+              <th class="col-xs-1"></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Fulano Silva</td>
+              <td>123123123123</td>
+              <td>999575757</td>
+              <td class="text-right">
+                <button type="button"
+                data-toggle="modal"
+                data-target="#modal-usuario-especifico"
+                class="btn btn-default">Editar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Fulano Silva</td>
+              <td>123123123123</td>
+              <td>999575757</td>
+              <td class="text-right">
+                <button type="button"
+                data-toggle="modal"
+                data-target="#modal-usuario-especifico"
+                class="btn btn-default">Editar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Fulano Silva</td>
+              <td>123123123123</td>
+              <td>999575757</td>
+              <td class="text-right">
+                <button type="button"
+                data-toggle="modal"
+                data-target="#modal-usuario-especifico"
+                class="btn btn-default">Editar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Fulano Silva</td>
+              <td>123123123123</td>
+              <td>999575757</td>
+              <td class="text-right">
+                <button type="button"
+                data-toggle="modal"
+                data-target="#modal-usuario-especifico"
+                        class="btn btn-default">Editar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Fulano Silva</td>
+              <td>123123123123</td>
+              <td>999575757</td>
+              <td class="text-right">
+                <button type="button"
+                data-toggle="modal"
+                data-target="#modal-usuario-especifico"
+                        class="btn btn-default">Editar</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Fulano Silva</td>
+              <td>123123123123</td>
+              <td>999575757</td>
+              <td class="text-right">
+                <button type="button"
+                data-toggle="modal"
+                data-target="#modal-usuario-especifico"
+                class="btn btn-default">Editar</button>
+              </td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td>Informação adicional</td>
+              <td>abc</td>
+              <td>def</td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+    </section>
+
+    <section id="t3">
+      <h2 class="text-muted">Card</h2>
+
+      <div id="card-com-informacoes-do-usuario">
+        <p>Informações do card aqui<p>
+      </div>
+    </section>
+
+    <div class="modal fade" id="modal-usuario-especifico" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Título do modal</h4>
+          </div>
+
+          <div class="modal-body alt-overflow-hidden">
+            <div id="info-usuario-container" class="row">
+              <div class="col-xs-12 alt-espacamento-bottom">
+                <label>Nome</label>
+                <input type="text" class="form-control" value="Fulano Silva"/>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 alt-espacamento-bottom">
+                <label>CPF</label>
+                <input type="text" class="form-control" value="123123123123"/>
+              </div>
+
+              <div class="col-xs-12 col-sm-6">
+                <label>Telefone</label>
+                <input type="text" class="form-control" value="999575757"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Salvar</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- rodapé -->
+  <footer id="alt-rodape" class="transition">
+    <div class="alt-direitos-reservados pull-left hidden-xs">
+      <span>© 1989-2015 - Alterdata Software - Direitos Reservados</span>
+    </div>
+
+    <div class="alt-logo-alterdata">
+
+      <div class="text-right hidden-xs alt-hand">
+
+        <div class="alt-redirecionamentos-rodape">
+
+          <div class="pull-right alt-espacamento-esquerda">
+            <img src="material/imagens/logo_branco.png"/>
+          </div>
+
+          <div class="alt-links-aux-alterdata pull-right">
+
+            <a href="http://www.alterdata.com.br/contato" target="_blank">
+              <span>Contato</span>
+            </a>
+
+            <span class="alt-separador-redirecionamentos-rodape">|</span>
+
+            <a href="http://cliente.alterdata.com.br/LoginCentral.aspx" target="_blank">
+              <span>Suporte</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="text-center visible-xs alt-hand">
+
+        <img src="material/imagens/logo_branco.png" />
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="material/js/jquery.js"></script>
+  <script type="text/javascript" src="material/js/bootstrap.js"></script>
+</body>
+</html>

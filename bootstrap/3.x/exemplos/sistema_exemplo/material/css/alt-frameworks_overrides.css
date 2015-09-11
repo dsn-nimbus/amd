@@ -189,6 +189,11 @@
   font-size: 15px;
 }
 
+.dropdown-menu {
+  min-width: 250px;
+}
+
+
 select.ng-invalid.ng-dirty {
   outline: 0;
 }
@@ -233,4 +238,5 @@ label {
     box-shadow: none;
     max-width: 100%;
   }
+
 }
