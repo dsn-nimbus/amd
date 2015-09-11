@@ -3,8 +3,8 @@
   cursor: pointer;
   width: 40px;
   height: 40px;
-  margin-top: 5px;
-  margin-right: 5px;
+  margin-top: 8px;
+  margin-right: 10px;
 }
 
 .alt-hr-separador-info {
@@ -19,7 +19,7 @@
 .alt-informacoes-usuario-container .dropdown-menu:before {
   position: absolute;
   top: -7px;
-  right: 17px;
+  right: 21px;
   display: inline-block;
   border-right: 7px solid transparent;
   border-bottom: 7px solid #ccc;
@@ -31,7 +31,7 @@
 .alt-informacoes-usuario-container .dropdown-menu:after {
   position: absolute;
   top: -6px;
-  right: 18px;
+  right: 22px;
   display: inline-block;
   border-right: 6px solid transparent;
   border-bottom: 6px solid #fff;
