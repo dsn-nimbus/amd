@@ -1,2 +1,11 @@
 #alt-cabecalho {
+
+}
+
+@media(min-width: 768px) {
+  #alt-cabecalho {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
 }

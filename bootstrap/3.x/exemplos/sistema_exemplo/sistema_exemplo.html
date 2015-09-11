@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <title>sistema_exemplo</title>
+
+  <!-- estilos -->
   <link rel="stylesheet" href="material/css/bootstrap.css" />
   <link rel="stylesheet" href="material/css/alt-frameworks_overrides.css" />
   <link rel="stylesheet" href="material/css/alt-rodape.css" />
@@ -10,7 +12,10 @@
   <link rel="stylesheet" href="material/css/alt-style.css" />
   <link rel="stylesheet" href="material/css/alt-position.css" />
   <link rel="stylesheet" href="material/css/alt-fonts.css" />
+  <link rel="stylesheet" href="material/css/alt-cabecalho.css" />
   <link rel="stylesheet" href="material/css/alt-informacoes-usuario-cabecalho.css" />
+  <!-- fim dos estilos -->
+
 </head>
 
 <body>
@@ -19,7 +24,6 @@
   <header class="header alt-sombra-primaria" id="alt-cabecalho">
     <div class="navbar navbar-default" role="navigation">
       <div>
-
         <div class="alt-informacoes-usuario-container dropdown alt-hand pull-right">
           <img src="https://avatars0.githubusercontent.com/u/7040162?v=3&s=40"
           alt="imagem"
@@ -59,14 +63,15 @@
               <button type="button"
                       class="btn btn-default pull-right hidden-xs">Sair</button>
 
-              <button type="button"
-              class="btn btn-default btn-block visible-xs">Sair</button>
-
-              <button type="button"
+                          <button type="button"
                       class="btn btn-default pull-left hidden-xs">Outra Coisa</button>
 
               <button type="button"
-                      class="btn btn-default pull-right btn-block alt-espacamento-top visible-xs">Outra Coisa</button>
+                      class="btn btn-default pull-right btn-block alt-espacamento-bottom visible-xs">Outra Coisa</button>
+
+
+              <button type="button"
+                      class="btn btn-default btn-block visible-xs">Sair</button>
 
             </div>
           </div>
@@ -98,22 +103,23 @@
       </div>
     </div>
   </header>
+  <!-- fim do cabeçalho -->
 
 
   <!-- corpo do sistema -->
-  <main class="container">
+  <main class="container alt-espacamento-cabecalho">
     <section id="t1">
-      <h2 class="text-muted">Título com informações adicionais</h2>
+      <h2 class="text-muted alt-titulo-importante">Título com informações adicionais</h2>
 
       <article>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex turpis, vulputate fermentum gravida quis, scelerisque quis diam. Aliquam luctus ex et molestie scelerisque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec vel sapien ac ante viverra rutrum. Proin efficitur risus id sollicitudin mollis. Aliquam vel dictum dolor. Vestibulum aliquet, ex eget convallis hendrerit, nisi massa elementum dui, non tincidunt quam elit a lorem. Aliquam ut quam faucibus, pretium mauris ac, varius sapien. Praesent nec magna sed tortor congue elementum eu nec purus. Nunc blandit eros magna, eget interdum leo hendrerit vitae. Aenean volutpat ex nisl, id consequat turpis tempor at. Phasellus volutpat vel lectus consequat ultricies.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <p>
 
         <p>Ut posuere tortor eget viverra cursus. Phasellus elementum iaculis ultrices. Curabitur bibendum ut ligula ut placerat. Nunc convallis augue tortor, non interdum dolor malesuada vel. Ut sit amet felis nec nisi fringilla tincidunt in ut dui. Praesent finibus consequat diam porttitor convallis. Nullam eget aliquam justo. Proin aliquet aliquet nulla, sit amet gravida lorem mattis id. Fusce eget purus nunc. Etiam sit amet scelerisque eros. Vestibulum rhoncus, mauris sed dapibus lobortis, massa eros varius quam, vel convallis elit velit vitae dolor. Sed a dapibus magna. Donec aliquet tortor non nibh eleifend rutrum.</p>
       </article>
     </section>
 
     <section id="t2">
-      <h2 class="text-muted">Tabela</h2>
+      <h2 class="text-muted alt-titulo-importante">Tabela</h2>
 
       <article>
         <p>Lorem ipsum dolor sit amet.</p>
@@ -137,7 +143,7 @@
                 <button type="button"
                 data-toggle="modal"
                 data-target="#modal-usuario-especifico"
-                class="btn btn-default">Editar</button>
+                class="btn btn-default">Modal</button>
               </td>
             </tr>
 
@@ -149,7 +155,7 @@
                 <button type="button"
                 data-toggle="modal"
                 data-target="#modal-usuario-especifico"
-                class="btn btn-default">Editar</button>
+                class="btn btn-default">Modal</button>
               </td>
             </tr>
 
@@ -161,7 +167,7 @@
                 <button type="button"
                 data-toggle="modal"
                 data-target="#modal-usuario-especifico"
-                class="btn btn-default">Editar</button>
+                class="btn btn-default">Modal</button>
               </td>
             </tr>
 
@@ -173,7 +179,7 @@
                 <button type="button"
                 data-toggle="modal"
                 data-target="#modal-usuario-especifico"
-                        class="btn btn-default">Editar</button>
+                        class="btn btn-default">Modal</button>
               </td>
             </tr>
 
@@ -185,7 +191,7 @@
                 <button type="button"
                 data-toggle="modal"
                 data-target="#modal-usuario-especifico"
-                        class="btn btn-default">Editar</button>
+                        class="btn btn-default">Modal</button>
               </td>
             </tr>
 
@@ -197,7 +203,7 @@
                 <button type="button"
                 data-toggle="modal"
                 data-target="#modal-usuario-especifico"
-                class="btn btn-default">Editar</button>
+                class="btn btn-default">Modal</button>
               </td>
             </tr>
           </tbody>
@@ -215,10 +221,69 @@
     </section>
 
     <section id="t3">
-      <h2 class="text-muted">Card</h2>
+      <h2 class="text-muted alt-titulo-importante">Card grande - sem imagem</h2>
 
-      <div id="card-com-informacoes-do-usuario">
-        <p>Informações do card aqui<p>
+      <div id="card-grande-sem" class="row">
+        <div class="col-xs-12 col-sm-6 alt-espacamento-bottom">
+          <h4 class="text-muted">Algum subtitulo 1</h4>
+          <div class="alt-sombra-secundaria alt-padding-medio">
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 alt-espacamento-bottom">
+          <h4 class="text-muted">Algum subtitulo 2</h4>
+          <div class="alt-sombra-secundaria alt-padding-medio">
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 alt-espacamento-bottom">
+          <h4 class="text-muted">Algum subtitulo 3</h4>
+          <div class="alt-sombra-secundaria alt-padding-medio">
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-8 alt-espacamento-bottom">
+          <h4 class="text-muted">Algum subtitulo 4</h4>
+          <div class="alt-sombra-secundaria alt-padding-medio">
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-7 alt-clear-both alt-espacamento-bottom">
+          <h4 class="text-muted">Algum subtitulo 5</h4>
+          <div class="alt-sombra-secundaria alt-padding-medio">
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-5 alt-espacamento-bottom">
+          <h4 class="text-muted">Algum subtitulo 6</h4>
+          <div class="alt-sombra-secundaria alt-padding-medio">
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -260,6 +325,7 @@
     </div>
 
   </main>
+  <!-- fim do corpo -->
 
 
   <!-- rodapé -->
@@ -304,8 +370,11 @@
 
     </div>
   </footer>
+  <!-- fim do rodapé -->
 
+  <!-- scripts -->
   <script type="text/javascript" src="material/js/jquery.js"></script>
   <script type="text/javascript" src="material/js/bootstrap.js"></script>
+  <!-- fim dos scripts -->
 </body>
 </html>

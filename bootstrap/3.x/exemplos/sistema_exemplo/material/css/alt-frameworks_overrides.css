@@ -166,6 +166,7 @@
 .navbar {
     border-radius: 0;
     border: none;
+    margin-bottom: 0;
 }
 
 .navbar .navbar-toggle {
@@ -192,7 +193,6 @@
 .dropdown-menu {
   min-width: 250px;
 }
-
 
 select.ng-invalid.ng-dirty {
   outline: 0;
