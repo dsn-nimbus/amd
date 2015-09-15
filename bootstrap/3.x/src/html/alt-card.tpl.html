@@ -1,0 +1,205 @@
+<style media="screen">
+  @font-face {
+      font-family: opensans-regular;
+      src: url(../fonts/open_sans/Regular/opensans-regular-webfont.woff);
+  }
+  @font-face {
+      font-family: opensans-bold;
+      src: url(../fonts/open_sans/Bold/opensans-condbold-webfont.woff);
+  }
+
+  body{
+    background-color: #eeeeee;
+  }
+
+  .alt-textcolor-white {
+    color: #ffffff;
+  }
+
+  .alt-card-sm{
+    width: 300px;
+  }
+
+  .alt-card-md{
+    width: 500px;
+  }
+
+  .alt-card-container {
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.3);
+    position: relative;
+  }
+
+  .alt-card-media {
+    background-image: url(../img/demo_card.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+  }
+    .alt-card-media h2 {
+      position: absolute;
+      bottom: 0;
+      margin: 16px;
+      font-family: opensans-bold;
+    }
+
+  .alt-card-media-legend {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 32px);
+    background-color: rgba(255,255,255,0.2);
+  }
+    .alt-card-media-legend p {
+      margin: 0;
+      text-align: left;
+      font-family: opensans-bold;
+      font-size: 14px;
+    }
+
+  .alt-card-title {
+    position: relative;
+    height: 70px;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+    .alt-card-title h2 {
+      position: absolute;
+      bottom: 0;
+      margin: 16px;
+      font-family: opensans-bold;
+    }
+
+  .alt-card-supporting-text {
+    padding: 16px;
+    text-align: left;
+    font-family: opensans-regular;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+  }
+
+  .alt-card-action {
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,0.2);
+    padding: 16px;
+    text-align: left;
+    background-color: #ffffff;
+  }
+
+  .alt-card-action-link {
+    cursor: pointer;
+    padding: 8px;
+    color: #3f51b5;
+    text-transform: uppercase;
+    font-family: opensans-bold;
+  }
+    .alt-card-action-link:hover {
+      background-color: rgba(63, 81, 181, 0.2);
+    }
+
+  .alt-card-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+    .alt-card-button button{
+      cursor: pointer;
+      border-radius: 16px;
+      width: 32px;
+      height: 32px;
+      border: none;
+      background-color: transparent;
+      color: #ffffff;
+    }
+      .alt-card-button button:hover{
+        background-color: rgba(255, 255, 255, 0.5);;
+        transition: background-color 1s;
+      }
+
+</style>
+
+<div class="alt-card-container alt-card-md">
+  <div class="alt-card-media">
+  </div>
+  <div class="alt-card-supporting-text">
+    <p>You suport text here</p>
+  </div>
+</div>
+
+<br/><br/><br/><br/>
+
+<div class="alt-card-container alt-card-md">
+  <div class="alt-card-title">
+    <h2>Your title here</h2>
+  </div>
+  <div class="alt-card-media">
+  </div>
+  <div class="alt-card-action">
+    <a class="alt-card-action-link">Action link 1</a>
+    <a class="alt-card-action-link">Action link 2</a>
+  </div>
+  <div class="alt-card-supporting-text">
+    <p>You suport text here</p>
+  </div>
+</div>
+
+<br/><br/><br/><br/>
+
+<div class="alt-card-container alt-card-md">
+  <div class="alt-card-media">
+    <h2 class="alt-textcolor-white">Your title here</h2>
+  </div>
+  <div class="alt-card-supporting-text">
+    <p>You suport text here</p>
+  </div>
+  <div class="alt-card-action">
+    <a class="alt-card-action-link">Action link 1</a>
+    <a class="alt-card-action-link">Action link 2</a>
+  </div>
+  <div class="alt-card-button">
+    <button>#</button>
+  </div>
+</div>
+
+<br/><br/><br/><br/>
+
+<div class="alt-card-container alt-card-sm">
+  <div class="alt-card-media">
+  </div>
+  <div class="alt-card-title">
+    <h2>Your title here</h2>
+  </div>
+  <div class="alt-card-action">
+    <a class="alt-card-action-link">Action link 1</a>
+    <a class="alt-card-action-link">Action link 2</a>
+  </div>
+  <div class="alt-card-supporting-text">
+    <p>You suport text here</p>
+  </div>
+</div>
+
+<br/><br/><br/><br/>
+
+<div class="alt-card-container alt-card-sm">
+  <div class="alt-card-media">
+  </div>
+  <div class="alt-card-media-legend">
+    <p class="alt-textcolor-white">
+      Your legend here
+      <div class="alt-card-button">
+        <button>+</button>
+      </div>
+    </p>
+  </div>
+</div>
