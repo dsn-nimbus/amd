@@ -20,7 +20,7 @@ alt-style.css
 
 ## Sobrescrita de algumas classes do Bootstrap
 
-CSS:
+CSS:  
 
 ```
 alt-frameworks_overrides.css
@@ -110,6 +110,12 @@ HTML base:
 
 ```
 alt-tabela.tpl.html
+```
+
+CSS:
+
+```
+alt-tabela.css
 ```
 
 ## Cards
