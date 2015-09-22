@@ -49,11 +49,35 @@
     }
 
   .alt_gallery-popup-container {
-    /*position: absolute;
+    position: absolute;
     z-index: 2;
+    background-color: rgba(0,0,0,0.8);
     width: 100%;
-    height: 100%;*/
+    height: 100%;
+    display: none;
   }
+    .alt_gallery-popup-container-show {
+      display: inline-block;
+    }
+    .alt_gallery-popup-container div {
+      margin: 16px;
+    }
+    .alt_gallery-popup-container button {
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      color: #ffffff;
+      font-size: 28px;
+      text-align: right;
+    }
+    .alt_gallery-popup-container div img {
+      width: 100%;
+    }
+    .alt_gallery-popup-container div div {
+      margin: 0;
+      text-align: right;
+      color: #ffffff;
+    }
 
 </style>
 
@@ -79,16 +103,18 @@
         return new alt_gallery(container);
 
       var
-        imgCollection = Array.prototype.slice.call( container.getElementsByTagName('img'), 0 ),
         htmlTemplate = '<figure><a href="#">'
           + '<img src="#" alt="" />'
           + '<span class="alt-galeria-zoom glyphicon glyphicon-plus-sign"></span>'
           + '</a></figure>',
-        popupTemplate = '<div><button title="Fechar" type="button"></button>'
+        popupTemplate = '<div><button title="Fechar" type="button">x</button>'
           +'<img src="#" alt=""/>'
-          +'<div><div>Título</div><div>3 of 9</div>'
+          +'<div><div>3 of 9</div>'
           +'</div></div>',
         popupContainer = '<div class="alt_gallery-popup-container"></div>';
+
+        var
+          imgArray = Array.prototype.slice.call( container.getElementsByTagName('img'), 0 );
 
       while (container.firstChild) {
         container.removeChild(container.firstChild);
@@ -96,7 +122,7 @@
 
       container.innerHTML = popupContainer;
 
-      imgCollection.forEach(function(elemento) {
+      imgArray.forEach(function(elemento) {
         container.innerHTML += htmlTemplate.replace(/#/g, elemento.src);
       });
 
@@ -105,8 +131,10 @@
           function(elemento){
             elemento.onclick = function() {
               popupTemplate = popupTemplate.replace('#', elemento.href);
-              document.getElementsByClassName('alt_gallery-popup-container')[0]
-              .innerHTML = popupTemplate;
+              var popupElement = document.getElementsByClassName('alt_gallery-popup-container')[0];
+              popupElement.innerHTML = popupTemplate;
+              popupElement.className += ' alt_gallery-popup-container-show';
+
               return false;
         };
       })
