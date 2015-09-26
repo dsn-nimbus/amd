@@ -7,7 +7,8 @@
 }
 
 .alt-cor-principal {
-  color: #777; /*cor escolhida para ser a base do sistema*/
+  color: #fff; /*cor de fonte escolhida, fará contraste com a cor de fundo */
+  background-color: #558B2F; /*cor escolhida para ser a base do sistema*/
 }
 
 .alt-texto-perigo {
