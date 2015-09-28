@@ -1,0 +1,1 @@
+exports.constantes = require('./const');
