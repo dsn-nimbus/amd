@@ -18,7 +18,9 @@
               0 4px 8px rgba(0,0,0,.28);
 }
 
-.ng-invalid.ng-dirty {
+input.ng-invalid.ng-dirty,
+textarea.ng-invalid.ng-dirty,
+select.ng-invalid.ng-dirty {
   border: 1px solid #d43f3a;
   box-shadow: 0 0 1px rgb(212, 63, 58);
 }
