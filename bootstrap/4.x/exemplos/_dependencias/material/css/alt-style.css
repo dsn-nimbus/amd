@@ -1,5 +1,5 @@
-.alt-texto-color-white {
-  color: #ffffff;
+.alt-texto-perigo {
+  color: #d43f3a;
 }
 
 .alt-botao-acao-tabela {
@@ -18,9 +18,7 @@
               0 4px 8px rgba(0,0,0,.28);
 }
 
-input.ng-invalid.ng-dirty,
-textarea.ng-invalid.ng-dirty,
-select.ng-invalid.ng-dirty {
+.ng-invalid.ng-dirty {
   border: 1px solid #d43f3a;
   box-shadow: 0 0 1px rgb(212, 63, 58);
 }
@@ -40,15 +38,6 @@ select.ng-invalid.ng-dirty {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-.alt-hand {
-  cursor: pointer;
-}
-
-.alt-titulo-importante {
-  padding-bottom: 5px;
-  border-bottom: 1px solid #ccc;
 }
 
 select {

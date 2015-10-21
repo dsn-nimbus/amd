@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const constantes = require('./utils/const');
 
 gulp.task('copia-exemplo-bs-v3', () => {
-  const SRC_BS_V3_ARQUIVOS_CSS = constantes.boostrap.v3.srcArquivosCss;
+  const SRC_BS_V3_ARQUIVOS_CSS = constantes.bootstrap.v3.srcArquivosCss;
   const DEPENDENCIAS_BS_V3_PASTA_CSS = constantes.bootstrap.v3.depCss;
 
   return gulp.src(SRC_BS_V3_ARQUIVOS_CSS)
