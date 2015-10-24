@@ -59,6 +59,16 @@
   font-size: 20px;
 }
 
+.alt-badge-opcoes-usuario {
+  top: -5px;
+  right: -2px;
+  background-color: red;
+  color: #fff;
+  padding: 0;
+  font-size: 12px;
+  width: 19px;
+}
+
 @media(min-width:400px) {
   .alt-opcoes-usuario-container .dropdown-menu {
     min-width: 300px;
