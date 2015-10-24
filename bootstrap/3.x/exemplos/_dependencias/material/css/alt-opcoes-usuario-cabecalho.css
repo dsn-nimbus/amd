@@ -5,11 +5,12 @@
 .alt-opcoes-usuario-cabecalho {
   height: 30px;
   width: 30px;
-  background-color: #ccc;
+  background-color: #eee;
   cursor: pointer;
   margin-top: 13px;
   margin-right: 10px;
   border-radius: 100%;
+  position: relative;
 }
 
 .alt-opcoes-usuario-container .dropdown-menu {
@@ -48,6 +49,14 @@
 
 .alt-opcoes-usuario-container .dropdown-menu {
   min-width: 250px;
+}
+
+
+.alt-icone-opcoes-usuario-cabecalho {
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  font-size: 20px;
 }
 
 @media(min-width:400px) {
