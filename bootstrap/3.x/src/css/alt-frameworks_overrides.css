@@ -223,22 +223,6 @@ label {
   background-color: transparent;
 }
 
-@media print {
-  .label-danger,
-  .label-success {
-    border: none;
-    padding-left: 0;
-  }
-
-  .table thead > tr > th {
-    font-weight: normal;
-  }
-
-  footer {
-    display: none;
-  }
-}
-
 @media (min-width: 768px) { /* maior que isso já saiu da resolução que o bootstrap considera mobile */
 
   .navbar-collapse.collapsing,
@@ -252,5 +236,4 @@ label {
   .navbar-brand {
     padding: 13px;
   }
-
 }

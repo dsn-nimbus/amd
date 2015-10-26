@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ericmdantas/alterdata-material-design#readme",
   "devDependencies": {
+    "babel": "^5.8.29",
     "del": "^2.0.2",
     "gulp": "^3.9.0",
     "gulp-csslint": "^0.2.0",
