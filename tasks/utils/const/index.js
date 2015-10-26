@@ -1,1 +1,1 @@
-exports.bootstrap = require('./bootstrap_constantes');
+export * as bootstrap from './bootstrap_constantes';

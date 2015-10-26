@@ -1,6 +1,6 @@
-const gulp = require('gulp');
-const del = require('del');
-const constantes = require('./utils/const');
+import gulp from 'gulp';
+import del from 'del';
+import * as constantes from './utils/const';
 
 gulp.task('del-dist-bs-v3', () => {
   const CAMINHO_DIST_BOOTSTRAP_3 = constantes.bootstrap.v3.dist;

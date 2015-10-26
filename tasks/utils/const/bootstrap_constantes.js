@@ -1,5 +1,3 @@
-/* bootstrap */
-
 const CAMINHO_BASE_BOOTSTRAP = 'bootstrap';
 
 const CAMINHO_SRC_BOOTSTRAP_3 = `${CAMINHO_BASE_BOOTSTRAP}/3.x/src/`;
@@ -43,5 +41,3 @@ module.exports = {
     depJs: CAMINHO_DEPENDENCIAS_JS_BOOTSTRAP_4
   }
 }
-
-/* /bootstrap */

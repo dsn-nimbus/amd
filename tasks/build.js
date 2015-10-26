@@ -1,6 +1,6 @@
-const gulp = require('gulp');
-const constantes = require('./utils/const');
-const minCss = require('gulp-minify-css');
+import gulp from 'gulp';
+import minCss from 'gulp-minify-css';
+import * as constantes from './utils/const';
 
 gulp.task('build-bs-v3', () => {
   const ARQUIVOS_SRC_BOOTSTRAP_CSS = constantes.bootstrap.v3.srcArquivosCss;

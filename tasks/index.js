@@ -1,1 +1,1 @@
-exports.utils = require('./utils');
+export * as utils from './utils';

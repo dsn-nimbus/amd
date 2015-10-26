@@ -1,1 +1,1 @@
-exports.constantes = require('./const');
+export * as contantes from './const';

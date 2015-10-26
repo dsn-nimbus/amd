@@ -1,6 +1,6 @@
-const gulp = require('gulp');
-const cssLint = require('gulp-csslint');
-const constantes = require('./utils/const');
+import gulp from 'gulp';
+import cssLint from 'gulp-csslint';
+import * as constantes from './utils/const';
 
 gulp.task('test-bs-v3', () => {
   const ARQUIVOS_CSS_BS_V3 = constantes.bootstrap.v3.srcArquivosCss;

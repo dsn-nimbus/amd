@@ -1,5 +1,5 @@
-const gulp = require('gulp');
-const constantes = require('./utils/const');
+import gulp from 'gulp';
+import * as constantes from './utils/const';
 
 gulp.task('copia-exemplo-bs-v3', () => {
   const SRC_BS_V3_ARQUIVOS_CSS = constantes.bootstrap.v3.srcArquivosCss;
