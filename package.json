@@ -12,6 +12,9 @@
     "build-b3": "gulp build-bs-v3 && gulp copia-exemplo-bs-v3",
     "build-b4": "gulp build-bs-v4 && gulp copia-exemplo-bs-v4"
   },
+  "pre-commit": [
+    "build"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ericmdantas/alterdata-material-design.git"
@@ -29,6 +32,10 @@
     "gulp-csslint": "^0.2.0",
     "gulp-minify-css": "^1.2.1",
     "gulp-rev": "^6.0.1",
+    "pre-commit": "^1.1.2",
     "require-dir": "^0.3.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.4.0"
   }
 }
