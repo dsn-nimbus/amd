@@ -19,7 +19,6 @@
     background-color: #eee;
     clear: both;
     transition: all 0.3s;
-    box-shadow: inherit;
     margin-top: 1px !important; /*culpa do bootstrap*/
     height: auto !important;
     box-shadow: 0 -1px 0 #e5e5e5,
