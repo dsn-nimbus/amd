@@ -51,6 +51,10 @@ select.ng-invalid.ng-dirty {
   border-bottom: 1px solid #ccc;
 }
 
+.alt-sombra-branca {
+  box-shadow: 0 0 3px #fff;
+}
+
 select {
   border-color: #ccc;
 }
