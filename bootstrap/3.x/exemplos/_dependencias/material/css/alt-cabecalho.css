@@ -2,6 +2,10 @@
 
 }
 
+#alt-cabecalho .navbar-brand {
+  line-height: 25px;
+}
+
 .navbar-brand.alt-nao-redimensiona-mobile {
   padding: 13px;
 }
@@ -18,4 +22,9 @@
     display: flex;
     justify-content: center;
   }
+
+  #alt-cabecalho .navbar-nav > li > a {
+    line-height: 25px;
+  }
+
 }
