@@ -6,6 +6,10 @@
   line-height: 25px;
 }
 
+#alt-cabecalho .navbar-brand {
+    font-size: 17px;
+}
+
 .navbar-brand.alt-nao-redimensiona-mobile {
   padding: 13px;
 }
@@ -23,8 +27,15 @@
     justify-content: center;
   }
 
+  #alt-cabecalho .navbar.navbar-default {
+    padding: 0 15px;
+  }
+
   #alt-cabecalho .navbar-nav > li > a {
     line-height: 25px;
   }
 
+  #alt-cabecalho .navbar-brand {
+    font-size: 24px;
+  }
 }
