@@ -11,12 +11,13 @@
   height: 200px;
   position: relative;
 }
-  .alt-card-media h2 {
-    position: absolute;
-    bottom: 0;
-    margin: 16px;
-    font-family: 'Open Sans Bold';
-  }
+
+.alt-card-media h2 {
+  position: absolute;
+  bottom: 0;
+  margin: 16px;
+  font-family: 'Open Sans Bold';
+}
 
 .alt-card-media-legend {
   padding-top: 16px;
@@ -28,12 +29,13 @@
   width: 100%;
   background-color: rgba(255,255,255,0.2);
 }
-  .alt-card-media-legend p {
-    margin: 0;
-    text-align: left;
-    font-family: 'Open Sans Bold';
-    font-size: 14px;
-  }
+
+.alt-card-media-legend p {
+  margin: 0;
+  text-align: left;
+  font-family: 'Open Sans Bold';
+  font-size: 14px;
+}
 
 .alt-card-title {
   position: relative;
@@ -43,12 +45,13 @@
   border-top-color: rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
-  .alt-card-title h2 {
-    position: absolute;
-    bottom: 0;
-    margin: 16px;
-    font-family: 'Open Sans Bold';
-  }
+
+.alt-card-title h2 {
+  position: absolute;
+  bottom: 0;
+  margin: 16px;
+  font-family: 'Open Sans Bold';
+}
 
 .alt-card-supporting-text {
   padding: 16px;
@@ -77,25 +80,28 @@
   text-transform: uppercase;
   font-family: "Open Sans Bold";
 }
-  .alt-card-action-link:hover {
-    background-color: rgba(63, 81, 181, 0.2);
-  }
+
+.alt-card-action-link:hover {
+  background-color: rgba(63, 81, 181, 0.2);
+}
 
 .alt-card-button {
   position: absolute;
   top: 8px;
   right: 8px;
 }
-  .alt-card-button button{
-    cursor: pointer;
-    border-radius: 16px;
-    width: 32px;
-    height: 32px;
-    border: none;
-    background-color: transparent;
-    color: #ffffff;
-  }
-    .alt-card-button button:hover{
-      background-color: rgba(255, 255, 255, 0.5);;
-      transition: background-color 1s;
-    }
+
+.alt-card-button button{
+  cursor: pointer;
+  border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.alt-card-button button:hover{
+  background-color: rgba(255, 255, 255, 0.5);;
+  transition: background-color 1s;
+}
