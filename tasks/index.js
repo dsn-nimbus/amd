@@ -1,1 +1,1 @@
-export * as utils from './utils';
+module.exports.utils = require('./utils');

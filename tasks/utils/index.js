@@ -1,1 +1,1 @@
-export * as contantes from './const';
+module.exports.contantes = require('./const');
