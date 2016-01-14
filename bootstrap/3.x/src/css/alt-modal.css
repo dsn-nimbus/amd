@@ -1,3 +1,7 @@
+.modal {
+  word-wrap: break-word;
+}
+
 .modal-body .alt-espacamento-bottom {
   margin-bottom: 10px;
 }
