@@ -1,0 +1,232 @@
+.list-group .list-group-item,
+.panel,
+.main-card,
+.input-group-addon,
+.modal-content,
+.form-control,
+.input-group-btn:last-child > .btn,
+.input-group > .form-control,
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon {
+  border-radius: 0;
+}
+
+.modal-title {
+  color: #333;
+}
+
+.tooltip {
+  font-size: 13px;
+}
+
+.btn {
+  border-radius: 2px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.btn,
+.btn:disabled {
+  box-shadow: 1px 1px 0 #ddd;
+}
+
+.btn:active,
+.btn:focus {
+  outline: 0;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.modal-content {
+  box-shadow: none;
+  border: none;
+}
+
+.modal-body {
+  font-size: 14px;
+}
+
+.modal-body p:last-of-type {
+  margin-bottom: 0;
+}
+
+.modal-header .close {
+  font-size: 21px;
+}
+
+.form-control {
+  box-shadow: none;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li > a {
+  color: #333;
+}
+
+.nav-tabs > li > a {
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+.modal-header {
+  padding: 10px 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.label-danger,
+.label-success {
+  background-color: transparent;
+  font-size: 90%;
+  font-weight: normal;
+}
+
+.label-danger {
+  border: 1px solid #D9534E;
+  color: #D9534E;
+}
+
+.label-success {
+  border: 1px solid #00AB00;
+  color: #00AB00;
+}
+
+.table > tbody > tr {
+  word-break: break-word;
+}
+
+.table > thead > tr > th,
+.table > tfoot > tr > td {
+  color: #777;
+  font-size: 13px;
+}
+
+.table > thead > tr > th {
+  border-bottom: none;
+  font-weight: normal;
+}
+
+.table > tbody > tr > td {
+  color: #000;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #f1f2f3;
+}
+
+.btn.btn-primary {
+  background-color: #558B2F;
+  border: 1px solid #7CB342;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+  outline: none;
+  border: 1px solid green;
+}
+
+.btn.btn-primary:hover {
+  background-color: #2E7D32;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 2px 12px 3px 10px;
+}
+
+.table > thead > tr > th,
+.table > tfoot > tr > td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.table > tbody > tr > td {
+  line-height: 2.3;
+}
+
+.btn.btn-primary:active {
+  background-color: #33691E;
+}
+
+.navbar {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar .navbar-toggle {
+    border: none;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.in {
+    margin-top: 6px;
+    margin-left: -10px;
+    background-color: #f1f2f3;
+    max-width: 250px;
+    box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+    position: relative;
+    z-index: 1;
+}
+
+.navbar.navbar-default {
+  height: 55px;
+}
+
+.nav.navbar-nav {
+  font-size: 15px;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+.navbar-brand {
+  padding: 13px 0;
+}
+
+select.ng-invalid.ng-dirty {
+  outline: 0;
+}
+
+textarea {
+  max-width: 100%;
+  resize: none;
+  padding: .5em;
+}
+
+label {
+  font-weight: normal;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+@media (min-width: 768px) { /* maior que isso já saiu da resolução que o bootstrap considera mobile */
+
+  .navbar-collapse.collapsing,
+  .navbar-collapse.in {
+    margin-top: 0;
+    background-color: transparent;
+    box-shadow: none;
+    max-width: 100%;
+  }
+
+  .navbar-brand {
+    padding: 13px;
+  }
+}
