@@ -160,13 +160,6 @@
   background-color: #33691E;
 }
 
-.select2-container--default .select2-selection--single {
-  border: 1px solid #ccc;
-  height: 35px;
-  padding: 2px;
-  border-radius: 0;
-}
-
 .navbar {
     border-radius: 0;
     border: none;
