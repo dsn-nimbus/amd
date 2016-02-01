@@ -39,6 +39,10 @@
   font-weight: bold;
 }
 
+.uib-datepicker-popup .dropdown-menu {
+  z-index: 2;
+}
+
 .uib-daypicker,
 .uib-datepicker-popup {
   outline: 0;
