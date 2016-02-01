@@ -43,3 +43,7 @@
 .uib-datepicker-popup {
   outline: 0;
 }
+
+.alt-posiciona-datepicker-topo-container .uib-datepicker-popup.dropdown-menu {
+    top: -250px !important;
+}
