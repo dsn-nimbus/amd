@@ -38,3 +38,8 @@
   color: purple;
   font-weight: bold;
 }
+
+.uib-daypicker,
+.uib-datepicker-popup {
+  outline: 0;
+}
