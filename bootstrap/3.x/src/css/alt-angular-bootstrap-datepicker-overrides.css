@@ -1,3 +1,8 @@
+input.ng-dirty.ng-invalid.ng-invalid-date-remove {
+  border: 1px solid #d43f3a;
+  box-shadow: 0 0 1px rgb(212, 63, 58);
+}
+
 .uib-datepicker-popup .btn {
   border: none;
   box-shadow: none;
@@ -26,7 +31,7 @@
 
 .uib-datepicker-popup .btn.active,
 .uib-datepicker-popup .btn.btn-default.active,
-.uib-datepicker-popup .btn.btn-info.active{
+.uib-datepicker-popup .btn.btn-info.active {
   color: purple;
   font-weight: bold;
   border: 1px solid rgba(152,126,165,.6);
