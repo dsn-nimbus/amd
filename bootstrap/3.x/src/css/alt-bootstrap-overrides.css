@@ -27,8 +27,8 @@
   margin-bottom: 0;
 }
 
-.btn,
-.btn:disabled {
+.btn:not(.btn.btn-link),
+.btn:disabled:not(.btn.btn-link) {
   box-shadow: 1px 1px 0 #ddd;
 }
 
