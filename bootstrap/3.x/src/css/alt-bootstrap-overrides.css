@@ -89,6 +89,7 @@
 }
 
 .label-danger,
+.label-info,
 .label-success {
   background-color: transparent;
   font-size: 90%;
@@ -98,6 +99,11 @@
 .label-danger {
   border: 1px solid #D9534E;
   color: #D9534E;
+}
+
+.label-info {
+  border: 1px solid #71BBD2;
+  color: #619BAD;
 }
 
 .label-success {
