@@ -131,6 +131,12 @@
   font-size: 13px;
 }
 
+.table .label {
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+}
+
 .nav-tabs {
   border-bottom: 1px solid #f1f2f3;
 }
