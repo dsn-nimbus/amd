@@ -1,7 +1,10 @@
+.alt-listagem-produtos-dropdown-menu.dropdown-menu {
+  padding: 0;
+}
+
 .alt-produtos-usuario-cabecalho-container {
-  padding-right: 15px;
-  height: 300px;
-  overflow-y: overlay;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 .alt-produto-cabecalho {
