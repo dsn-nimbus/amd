@@ -54,6 +54,22 @@
   margin-bottom: 0;
 }
 
+.alt-espacamento-pequeno-bottom {
+  margin-bottom: 5px;
+}
+
+.alt-espacamento-pequeno-top {
+  margin-top: 5px;
+}
+
+.alt-espacament-pequeno-right {
+  margin-right: 5px;
+}
+
+.alt-espacamento-pequeno-left {
+  margin-left: 5px;
+}
+
 .alt-espacamento-bottom {
   margin-bottom: 15px;
 }
