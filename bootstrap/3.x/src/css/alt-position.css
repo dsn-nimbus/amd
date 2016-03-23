@@ -106,6 +106,15 @@
   clear: both;
 }
 
+input.alt-checkbox-radio-inline {
+  margin-right: 3px;
+  vertical-align: sub;
+}
+
+input.alt-checkbox-radio-inline + .alt-info-checkbox-radio-inline {
+  vertical-align: middle;
+}
+
 html,
 body {
     height: 100%;
