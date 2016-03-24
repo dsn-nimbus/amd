@@ -237,7 +237,7 @@ blockquote {
   margin-bottom: 0;
 }
 
-blockquote small {
+blockquote small:before {
   content: "";
 }
 
