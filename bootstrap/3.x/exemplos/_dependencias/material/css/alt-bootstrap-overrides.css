@@ -233,6 +233,14 @@ label {
   background-color: transparent;
 }
 
+blockquote {
+  margin-bottom: 0;
+}
+
+blockquote small {
+  content: "";
+}
+
 @media (min-width: 768px) { /* maior que isso já saiu da resolução que o bootstrap considera mobile */
 
   .navbar-collapse.collapsing,
