@@ -1,0 +1,23 @@
+.alt-titulo-view-container {
+    margin-top: 0;
+    position: relative;
+}
+
+.alt-titulo-view-container .alt-complemento-titulo-view-container {
+    position: absolute;
+    right: 1px;
+    top: 13px;
+    font-size: 13px;
+}
+
+.alt-titulo-view {
+  border-bottom: 1px solid rgba(128, 0, 128, .38);
+  font-size: 20px;
+  color: rgb(96, 29, 108);
+}
+
+@media (min-width: 768px) {
+  .alt-titulo-view {
+    font-size: 25px;
+  }
+}
