@@ -210,6 +210,10 @@
   min-width: 250px;
 }
 
+.btn.dropdown-toggle + .dropdown-menu {
+  min-width: auto;
+}
+
 .navbar-brand {
   padding: 13px 0;
 }
