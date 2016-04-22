@@ -27,7 +27,7 @@
   margin: 0 auto;
 }
 
-.alt-lista-item .alt-lista-item-acao-container ~ .alt-lista-item-info-container {
+.alt-lista-item .alt-lista-item-acao-container + .alt-lista-item-info-container {
   margin-bottom: 30px;
 }
 
@@ -78,7 +78,7 @@
     right: 15px;;
   }
 
-  .alt-lista-item .alt-lista-item-acao-container ~ .alt-lista-item-info-container {
+  .alt-lista-item .alt-lista-item-acao-container + .alt-lista-item-info-container {
     margin-bottom: 0;
   }
 }
