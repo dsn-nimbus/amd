@@ -77,4 +77,8 @@
     top: 15px;
     right: 15px;;
   }
+
+  .alt-lista-item .alt-lista-item-acao-container ~ .alt-lista-item-info-container {
+    margin-bottom: 0;
+  }
 }
