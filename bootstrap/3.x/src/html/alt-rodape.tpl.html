@@ -1,7 +1,10 @@
 <footer id="alt-rodape" class="transition">
   <div class="alt-direitos-reservados pull-left hidden-xs">
-    <span>© 1989-2015 - Alterdata Software - Direitos Reservados</span>
-  </div>
+      <span>© 1989-<span id="alt-ano-atual"></span> - Alterdata Software - Direitos Reservados</span>
+      <script>
+        document.getElementById('alt-ano-atual').innerText = new Date().getFullYear();
+      </script>
+    </div>
 
   <div class="alt-logo-alterdata">
 
