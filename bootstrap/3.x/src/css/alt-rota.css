@@ -6,8 +6,8 @@
 .alt-titulo-view-container .alt-complemento-titulo-view-container {
     position: absolute;
     right: 1px;
-    top: 13px;
-    font-size: 13px;
+    top: 8px;
+    font-size: 11px;
 }
 
 .alt-titulo-view {
@@ -19,5 +19,10 @@
 @media (min-width: 768px) {
   .alt-titulo-view {
     font-size: 25px;
+  }
+
+  .alt-titulo-view-container .alt-complemento-titulo-view-container {
+    top: 13px;
+    font-size: 13px;
   }
 }
