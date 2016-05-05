@@ -135,6 +135,11 @@ main.container {
     padding-right: 5px;
 }
 
+[ng-view] {
+    margin-top: 15px;
+    padding: 5px 10px;
+}
+
 @media(min-width: 768px) {
   main {
     padding-top: 55px;
