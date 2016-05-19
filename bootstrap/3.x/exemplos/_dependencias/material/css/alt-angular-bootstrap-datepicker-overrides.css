@@ -53,6 +53,10 @@ input.ng-dirty.ng-invalid.ng-invalid-date-remove {
   outline: 0;
 }
 
+.uib-monthpicker:focus {
+  outline: none;
+}
+
 .alt-posiciona-datepicker-topo-container .uib-datepicker-popup.dropdown-menu {
     top: -250px !important;
 }
