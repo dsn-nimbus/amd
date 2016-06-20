@@ -68,6 +68,7 @@
 
 .form-control {
   box-shadow: none;
+  font-size: 13px;
 }
 
 .nav-tabs > li.active > a,
