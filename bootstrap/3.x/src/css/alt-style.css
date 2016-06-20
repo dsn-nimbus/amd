@@ -1,3 +1,7 @@
+body {
+  font-size: 13px;
+}
+
 .alt-texto-color-white {
   color: #ffffff;
 }
@@ -29,7 +33,7 @@ select.ng-invalid.alt-validavel-sem-dirty {
 }
 
 .alt-fonte-pequena {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .alt-titulo-view {

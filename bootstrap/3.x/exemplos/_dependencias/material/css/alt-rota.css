@@ -17,12 +17,8 @@
 }
 
 @media (min-width: 768px) {
-  .alt-titulo-view {
-    font-size: 25px;
-  }
-
   .alt-titulo-view-container .alt-complemento-titulo-view-container {
-    top: 13px;
+    top: 10px;
     font-size: 13px;
   }
 }
