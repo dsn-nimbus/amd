@@ -1,1 +1,1 @@
-This repository contains documents describing the high-level design of Alt-Design.
+![move_along](https://m.popkey.co/e5ef9b/ygqVx.gif)
