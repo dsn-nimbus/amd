@@ -1,5 +1,7 @@
 body {
   font-size: 13px;
+  font-family: "Open Sans Condensed";
+  background-color: #fafbfc;
 }
 
 .alt-texto-color-white {
@@ -64,9 +66,4 @@ select.ng-invalid.alt-validavel-sem-dirty {
 
 select {
   border-color: #ccc;
-}
-
-body {
-  font-family: "Open Sans";
-  background-color: #fafbfc;
 }
