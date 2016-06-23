@@ -4,13 +4,8 @@
   "description": "Estilos para Alterdata Software",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "gulp watch",
-    "test-b3": "gulp test-bs-v3",
-    "test-b4": "gulp test-bs-v4",
-    "build": "npm run build-b3 && npm run build-b4",
-    "build-b3": "gulp build-bs-v3 && gulp copia-exemplo-bs-v3",
-    "build-b4": "gulp build-bs-v4 && gulp copia-exemplo-bs-v4"
+    "build": "npm run build-b3",
+    "build-b3": "gulp build-bs-v3 && gulp copia-para-documentacao-bs-v3",
   },
   "repository": {
     "type": "git",

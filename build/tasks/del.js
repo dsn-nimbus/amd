@@ -7,9 +7,3 @@ gulp.task('del-dist-bs-v3', () => {
 
   return del([CAMINHO_DIST_BOOTSTRAP_3]);
 });
-
-gulp.task('del-dist-bs-v4', () => {
-  const CAMINHO_DIST_BOOTSTRAP_4 = constantes.bootstrap.v4.dist;
-
-  return del([CAMINHO_DIST_BOOTSTRAP_4]);
-});
