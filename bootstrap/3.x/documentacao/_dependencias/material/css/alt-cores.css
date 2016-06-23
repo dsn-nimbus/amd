@@ -1,0 +1,31 @@
+#alt-rodape {
+  background-color: rgba(43, 120, 158, 0.86); /*deve ser diferente da cor principal*/
+}
+
+#alt-rodape a {
+  color: #fff;
+}
+
+.alt-cor-principal {
+  color: #fff; /*cor de fonte escolhida, fará contraste com a cor de fundo */
+  background-color: #558B2F; /*cor escolhida para ser a base do sistema*/
+}
+
+.alt-texto-perigo {
+  color: #d43f3a;
+}
+
+.btn.btn-primary {
+  background-color: #558B2F; /*deve ser a mesma da cor principal*/
+  border: 1px solid #7CB342; /*deve ser um pouco mais clara que a cor principal*/
+}
+
+.btn.btn-primary:active {
+  background-color: #33691E; /*deve ser mais escura que a cor principal*/
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
+  border: 1px solid green; /*deve ser mais clara que a cor principal*/
+}

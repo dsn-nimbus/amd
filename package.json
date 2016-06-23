@@ -35,5 +35,9 @@
   },
   "dependencies": {
     "font-awesome": "^4.4.0"
+  },
+  "babel": {
+    "presets": ["es2015"],
+    "only": ["tasks"]
   }
 }
