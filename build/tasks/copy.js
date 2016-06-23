@@ -10,19 +10,19 @@ gulp.task('copia-deps-b3', () => {
 });
 
 gulp.task('copia-css-b3', () => {
-  const SRC_BS_V3_ARQUIVOS_CSS = constantes.bootstrap.v3.css;
-  const DEPENDENCIAS_BS_V3_PASTA_CSS = constantes.bootstrap.v3.documentacaoDepsCSS;
+  const CSS = constantes.bootstrap.v3.css;
+  const DOC_DEP = constantes.bootstrap.v3.documentacaoDepsCSS;
 
-  return gulp.src(SRC_BS_V3_ARQUIVOS_CSS)
-             .pipe(gulp.dest(DEPENDENCIAS_BS_V3_PASTA_CSS));
+  return gulp.src(CSS)
+             .pipe(gulp.dest(DOC_DEP));
 });
 
 gulp.task('copia-js-b3', () => {
-  const SRC_BS_V3_ARQUIVOS_JS = constantes.bootstrap.v3.srcArquivosJs;
-  const DEPENDENCIAS_BS_V3_PASTA_JS = constantes.bootstrap.v3.documentacaoDepsJS;
+  const JS = constantes.bootstrap.v3.srcArquivosJs;
+  const DOC_DEP = constantes.bootstrap.v3.documentacaoDepsJS;
 
-  return gulp.src(SRC_BS_V3_ARQUIVOS_JS)
-             .pipe(gulp.dest(DEPENDENCIAS_BS_V3_PASTA_JS));
+  return gulp.src(JS)
+             .pipe(gulp.dest(DOC_DEP));
 });
 
 gulp.task('copia-para-documentacao-bs-v3', [
