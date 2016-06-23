@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="doc">
 <head>
   <meta charset="utf-8" />
   <title>Exemplo | Documentação</title>
@@ -7,6 +7,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <!-- estilos -->
   <link rel="stylesheet" href="../_dependencias/material/css/bootstrap.css" />
+  <link rel="stylesheet" href="../_dependencias/material/css/fontawesome.css" />
+
   <link rel="stylesheet" href="../_dependencias/material/css/alt-bootstrap-overrides.css" />
   <link rel="stylesheet" href="../_dependencias/material/css/alt-aba.css" />
   <link rel="stylesheet" href="../_dependencias/material/css/alt-rodape.css" />
@@ -26,6 +28,8 @@
 </head>
 
 <body>
+
+  <div ng-view></div>
 
   <!-- cabeçalho -->
   <header class="header" id="alt-cabecalho">
