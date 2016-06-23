@@ -4,8 +4,7 @@
   "description": "Estilos para Alterdata Software",
   "main": "index.js",
   "scripts": {
-    "build": "gulp build-bs-v3",
-    "build-b3": "gulp copia-para-documentacao-bs-v3"
+    "build": "gulp build-v3"
   },
   "repository": {
     "type": "git",
