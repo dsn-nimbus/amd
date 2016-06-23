@@ -2,13 +2,12 @@ const CAMINHO_BASE_BOOTSTRAP_3 = 'bootstrap/3.x';
 
 const CAMINHO_DEPS_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/src/deps/**/*`;
 const CAMINHO_DIST_BOOTSTRAP_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/dist/`;
-const CAMINHO_SRC_CSS_BOOTSTRAP_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/src/css/`;
+const CAMINHO_SRC_CSS_BOOTSTRAP_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/src/css/*`;
 const CAMINHO_DOCUMENTACAO_BOOTSTRAP_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao/`;
 const CAMINHO_DOCUMENTACAO_MATERIAL_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao/_dependencias/material/`;
 const CAMINHO_DOCUMENTACAO_EXEMPLO_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao/_dependencias/exemplo/`;
 
 module.exports = {
-  caminhoBase: CAMINHO_BASE_BOOTSTRAP,
   v3: {
     doc: CAMINHO_DOCUMENTACAO_BOOTSTRAP_3,
     dist: CAMINHO_DIST_BOOTSTRAP_3,

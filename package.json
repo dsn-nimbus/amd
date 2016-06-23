@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build-b3",
-    "build-b3": "gulp build-bs-v3 && gulp copia-para-documentacao-bs-v3",
+    "build-b3": "gulp build-bs-v3 && gulp copia-para-documentacao-bs-v3"
   },
   "repository": {
     "type": "git",
