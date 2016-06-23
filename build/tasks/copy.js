@@ -9,6 +9,10 @@ gulp.task('copia-deps-b3', () => {
              .pipe(gulp.dest(DEPS_DESTINO));
 });
 
-gulp.task('copia-para-documentacao-bs-v3', [
-  'copia-deps-b3'
-]);
+gulp.task('copia-dist-doc-b3', () => {
+  const DIST = constantes.bootstrap.v3.dist;
+  const DEPS_DESTINO = constantes.bootstrap.v3.material;
+
+  return gulp.src(DIST + '*.css')
+             .pipe(gulp.dest(DEPS_DESTINO + 'css/'));
+});

@@ -4,8 +4,8 @@
   "description": "Estilos para Alterdata Software",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build-b3",
-    "build-b3": "gulp build-bs-v3 && gulp copia-para-documentacao-bs-v3"
+    "build": "gulp build-bs-v3",
+    "build-b3": "gulp copia-para-documentacao-bs-v3"
   },
   "repository": {
     "type": "git",
@@ -26,13 +26,18 @@
     "gulp-csslint": "^0.2.0",
     "gulp-minify-css": "^1.2.1",
     "gulp-rev": "^6.0.1",
-    "require-dir": "^0.3.0"
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.1"
   },
   "dependencies": {
     "font-awesome": "^4.4.0"
   },
   "babel": {
-    "presets": ["es2015"],
-    "only": ["tasks"]
+    "presets": [
+      "es2015"
+    ],
+    "only": [
+      "tasks"
+    ]
   }
 }
