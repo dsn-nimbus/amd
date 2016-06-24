@@ -1,12 +1,10 @@
 ;(function(ng) {
   ng.module('doc', ['ngRoute'])
-    .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+    .config(['$routeProvider', function($routeProvider) {
       $routeProvider
         .when('/', {
           templateUrl: 'views/main.html'
         })
-        .otherwise({redirectTo: '/'});
-
-      $locationProvider.html5Mode(true);
+        .otherwise({redirectTo: '/'})
     }]);
 }(angular));
