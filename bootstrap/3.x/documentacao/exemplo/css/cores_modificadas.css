@@ -4,7 +4,7 @@
 }
 
 #alt-rodape a {
-  color:#fff;
+  color:whitesmoke;
 }
 
 #alt-cabecalho .navbar {
@@ -12,7 +12,7 @@
 }
 
 #alt-cabecalho .navbar .navbar-brand {
-  color: #fff;
+  color: whitesmoke;
 }
 
 #alt-cabecalho .navbar .navbar-nav a {
@@ -36,7 +36,7 @@
 }
 
 .alt-cor-principal {
-  color:#fff;
+  color:whitesmoke;
   background-color: #4682B4;
 }
 
@@ -60,15 +60,25 @@
 }
 
 #alt-cabecalho .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: whitesmoke;
 }
 
 #alt-cabecalho .nav li > a {
   color: #333;
 }
 
+#alt-cabecalho .alt-opcoes-usuario-cabecalho {
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+#alt-cabecalho .alt-badge-sem-contagem-opcoes-usuario {
+  background-color: #a94442;
+  box-shadow: 0 0 1px whitesmoke;
+}
+
 @media(min-width: 768px) {
   #alt-cabecalho .navbar .navbar-nav a {
-    color: #fff;
+    color: whitesmoke;
   }
 }
