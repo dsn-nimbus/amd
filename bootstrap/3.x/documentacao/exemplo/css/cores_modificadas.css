@@ -16,7 +16,7 @@
 }
 
 #alt-cabecalho .navbar .navbar-nav a {
-  color: #fff;
+  color: #333;
 }
 
 #alt-cabecalho .navbar-default .navbar-nav > .active > a,
@@ -57,4 +57,18 @@
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
   border:1px solid #85A5C0;
+}
+
+#alt-cabecalho .navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+#alt-cabecalho .nav li > a {
+  color: #333;
+}
+
+@media(min-width: 768px) {
+  #alt-cabecalho .navbar .navbar-nav a {
+    color: #fff;
+  }
 }
