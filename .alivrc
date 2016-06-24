@@ -1,0 +1,5 @@
+{
+  "quiet": true,
+  "pathIndex": "bootstrap/3.x/documentacao/exemplo/",
+  "only": "bootstrap/3.x/**/*"
+}

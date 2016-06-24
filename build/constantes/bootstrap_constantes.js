@@ -4,8 +4,8 @@ const CAMINHO_DEPS_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/src/deps/**/*`;
 const CAMINHO_DIST_BOOTSTRAP_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/dist/`;
 const CAMINHO_SRC_CSS_BOOTSTRAP_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/src/css/*`;
 const CAMINHO_DOCUMENTACAO_BOOTSTRAP_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao/`;
-const CAMINHO_DOCUMENTACAO_MATERIAL_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao/_dependencias/material/`;
-const CAMINHO_DOCUMENTACAO_EXEMPLO_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao/_dependencias/exemplo/`;
+const CAMINHO_DOCUMENTACAO_EXEMPLO_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao/exemplo/`;
+const CAMINHO_DOCUMENTACAO_MATERIAL_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao/exemplo/_dependencias/material/`;
 
 module.exports = {
   v3: {
