@@ -7,8 +7,26 @@
   color:#fff;
 }
 
+#alt-cabecalho .navbar {
+  background-color: #4682B4;
+}
+
+#alt-cabecalho .navbar .navbar-brand {
+  color: #fff;
+}
+
+#alt-cabecalho .navbar .navbar-nav a {
+  color: #fff;
+}
+
+#alt-cabecalho .navbar-default .navbar-nav > .active > a,
+#alt-cabecalho .navbar-default .navbar-nav > .active > a:hover,
+#alt-cabecalho .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #85A5C0;
+}
+
 .modal-header.alt-cor-principal {
-  background-color: #4682B4;  
+  background-color: #4682B4;
 }
 
 .alt-cor-principal {
