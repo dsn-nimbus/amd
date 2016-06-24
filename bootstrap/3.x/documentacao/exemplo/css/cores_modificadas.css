@@ -25,6 +25,12 @@
   background-color: #85A5C0;
 }
 
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border-bottom-color: #4682B4;
+}
+
 .modal-header.alt-cor-principal {
   background-color: #4682B4;
 }

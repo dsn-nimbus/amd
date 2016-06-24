@@ -5,7 +5,7 @@
   cursor: default;
   background-color: #fcfdfe;
   border: none;
-  border-bottom: 3px solid #558B2F;
+  border-bottom: 3px solid red;
 }
 
 .nav-tabs li > a {
