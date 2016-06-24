@@ -2,4 +2,29 @@
   <div class="alt-titulo-view-container">
     <p class="alt-titulo-view">Loading</p>
   </div>
+
+  <div>
+    <button type="button"
+            id="exibe-loading"
+            class="btn btn-default">
+          Exibir loading
+    </button>
+  </div>
+
+  <div id="alt-carregando-info-container" class="hidden">
+    <div id="alt-carregando-info-coberta"></div>
+    <div id="alt-carregando-info-aviso">
+      <p class="fa fa-fw fa-refresh fa-spin"></p>
+    </div>
+  </div>
+
+  <script>
+    $('#exibe-loading').on('click', function() {
+      $('#alt-carregando-info-container').removeClass('hidden');
+
+      setTimeout(function() {
+        $('#alt-carregando-info-container').addClass('hidden');
+      }, 1000);
+    });
+  </script>
 </section>

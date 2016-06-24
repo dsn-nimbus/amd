@@ -22,6 +22,12 @@
         .when('/listas', {
           templateUrl: 'views/listas.html'
         })
+        .when('/forms', {
+          templateUrl: 'views/forms.html'
+        })
+        .when('/loading', {
+          templateUrl: 'views/loading.html'
+        })
         .otherwise({redirectTo: '/'})
 
       $locationProvider.html5Mode(true);
