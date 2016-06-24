@@ -1,0 +1,36 @@
+#alt-rodape {
+  background-color: #85A5C0;
+  border-top-color: #4682B4;
+}
+
+#alt-rodape a {
+  color:#fff;
+}
+
+.modal-header.alt-cor-principal {
+  background-color: #4682B4;  
+}
+
+.alt-cor-principal {
+  color:#fff;
+  background-color: #4682B4;
+}
+
+.btn.btn-primary {
+  background-color: #4682B4;
+  border:1px solid #85A5C0;
+}
+
+.btn.btn-primary:hover {
+  background-color: #427BAB;
+}
+
+.btn.btn-primary:active {
+  background-color: #4B8BC1;
+}
+
+.btn.btn-primary:active,
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+  border:1px solid #85A5C0;
+}

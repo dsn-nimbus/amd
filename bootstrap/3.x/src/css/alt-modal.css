@@ -32,10 +32,6 @@
   font-size: 20px;
 }
 
-.modal-header.alt-cor-principal {
-  background-color: #558B2F;
-}
-
 .modal-header.alt-cor-principal .modal-title {
   color: #fff;
 }
@@ -44,7 +40,16 @@
   margin-right: 20px;
 }
 
-.modal-header.alt-cor-principal .close {
+.modal-header.alt-modal-danger {
+  background-color: #a94442;
+}
+
+.modal-header.alt-modal-danger .modal-title {
+  color: #fff;
+}
+
+.modal-header.alt-cor-principal .close,
+.modal-header.alt-modal-danger .close {
   color: #fff;
   opacity: .8;
 }
