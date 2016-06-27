@@ -1,8 +1,8 @@
-<header class="header" id="alt-cabecalho">
+<header class="header" id="alt-cabecalho" ng-controller="CabecalhoController as cCtrl">
   <div class="navbar navbar-default alt-sombra-primaria" role="navigation">
     <div>
       <div class="alt-informacoes-usuario-container dropdown alt-hand pull-right">
-        <img src="https://avatars0.githubusercontent.com/u/7040162?v=3&s=40"
+        <img ng-src="{{cCtrl.usuario.imagem}}"
         alt="imagem"
         class="alt-imagem-usuario-cabecalho alt-hand"
         data-toggle="dropdown"/>
@@ -10,13 +10,13 @@
         <div class="dropdown-menu">
           <div id="alt-informacoes-usuario-dropdown">
             <div class="col-xs-4 hidden-xs row">
-              <img src="https://avatars0.githubusercontent.com/u/7040162?v=3&s=40"
+              <img ng-src="{{cCtrl.usuario.imagem}}"
               alt="imagem"
               class="alt-imagem-usuario-dropdown" />
             </div>
 
             <div class="col-xs-12 visible-xs text-center">
-              <img src="https://avatars0.githubusercontent.com/u/7040162?v=3&s=40"
+              <img ng-src="{{cCtrl.usuario.imagem}}"
               alt="imagem"
               class="alt-imagem-usuario-dropdown" />
             </div>
@@ -24,13 +24,13 @@
             <hr class="visible-xs col-xs-12 alt-hr-separador-info" />
 
             <div class="col-xs-8 hidden-xs">
-              <p>Fulano da Silva</p>
-              <small class="text-muted">fulano_da_silva@gmail.com</small>
+              <p ng-bind="cCtrl.usuario.nome"></p>
+              <small class="text-muted" ng-bind="cCtrl.usuario.email"></small>
             </div>
 
             <div class="col-xs-12 visible-xs text-center">
-              <p>Fulano da Silva</p>
-              <small class="text-muted">fulano_da_silva@gmail.com</small>
+              <p ng-bind="cCtrl.usuario.nome"></p>
+              <small class="text-muted" ng-bind="cCtrl.usuario.email"></small>
             </div>
 
             <hr class="visible-xs col-xs-12 alt-hr-separador-info" />
@@ -67,45 +67,10 @@
               <div class="alt-opcoes-usuario-dropdown listagem-produtos-cabecalho">
                   <div id="produtos-cabecalho-container" class="alt-produtos-usuario-cabecalho-container">
                       <a class="col-xs-12 col-sm-6 col-lg-4 text-center alt-hand alt-produto-cabecalho"
+                         ng-repeat="prod in cCtrl.produtos track by $index"
                          href="https://google.com.br" target="_blank">
-                          <img class="alt-imagem-pequena" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
-                          <p class="text-muted">Nome do Produto</p>
-                      </a>
-
-                      <a class="col-xs-12 col-sm-6 col-lg-4 text-center alt-hand alt-produto-cabecalho"
-                         href="https://google.com.br" target="_blank">
-                          <img class="alt-imagem-pequena" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
-                          <p class="text-muted">Nome do Produto</p>
-                      </a>
-
-                      <a class="col-xs-12 col-sm-6 col-lg-4 text-center alt-hand alt-produto-cabecalho"
-                         href="https://google.com.br" target="_blank">
-                          <img class="alt-imagem-pequena" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
-                          <p class="text-muted">Nome do Produto</p>
-                      </a>
-
-                      <a class="col-xs-12 col-sm-6 col-lg-4 text-center alt-hand alt-produto-cabecalho"
-                         href="https://google.com.br" target="_blank">
-                          <img class="alt-imagem-pequena" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
-                          <p class="text-muted">Nome do Produto</p>
-                      </a>
-
-                      <a class="col-xs-12 col-sm-6 col-lg-4 text-center alt-hand alt-produto-cabecalho"
-                         href="https://google.com.br" target="_blank">
-                          <img class="alt-imagem-pequena" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
-                          <p class="text-muted">Nome do Produto</p>
-                      </a>
-
-                      <a class="col-xs-12 col-sm-6 col-lg-4 text-center alt-hand alt-produto-cabecalho"
-                         href="https://google.com.br" target="_blank">
-                          <img class="alt-imagem-pequena" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
-                          <p class="text-muted">Nome do Produto</p>
-                      </a>
-
-                      <a class="col-xs-12 col-sm-6 col-lg-4 text-center alt-hand alt-produto-cabecalho"
-                         href="https://google.com.br" target="_blank">
-                          <img class="alt-imagem-pequena" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
-                          <p class="text-muted">Nome do Produto</p>
+                          <img class="alt-imagem-pequena" ng-src="{{prod.logo}}" />
+                          <p class="text-muted" ng-bind="prod.nome"></p>
                       </a>
                   </div>
               </div>

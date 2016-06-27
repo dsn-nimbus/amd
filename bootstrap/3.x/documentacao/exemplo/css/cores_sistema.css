@@ -59,6 +59,11 @@
   border:1px solid #85A5C0;
 }
 
+.alt-titulo-view {
+  color: steelblue;
+  border-bottom-color: rgba(133, 165, 192, 0.55);;
+}
+
 #alt-cabecalho .navbar-default .navbar-toggle .icon-bar {
   background-color: whitesmoke;
 }
