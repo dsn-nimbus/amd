@@ -1,7 +1,11 @@
 body {
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   background-color: #fafbfc;
+}
+
+form {
+  background-color: #fff;
 }
 
 .alt-texto-color-white {
@@ -29,7 +33,10 @@ input.ng-invalid.alt-validavel-sem-dirty,
 textarea.ng-invalid.ng-dirty,
 textarea.ng-invalid.alt-validavel-sem-dirty,
 select.ng-invalid.ng-dirty,
-select.ng-invalid.alt-validavel-sem-dirty {
+select.ng-invalid.alt-validavel-sem-dirty,
+input.alt-input-invalido,
+textarea.alt-input-invalido,
+select.alt-input-invalido {
   border: 1px solid #d43f3a;
   box-shadow: 0 0 1px rgb(212, 63, 58);
 }

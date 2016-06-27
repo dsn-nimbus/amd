@@ -55,7 +55,7 @@
 }
 
 .modal-body {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .modal-body p:last-of-type {
@@ -68,7 +68,7 @@
 
 .form-control {
   box-shadow: none;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .nav-tabs > li.active > a,

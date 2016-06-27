@@ -139,26 +139,9 @@
     <div class="collapse navbar-collapse" id="js-menu-cabecalho">
 
         <ul class="nav navbar-nav">
-          <li>
-            <a href="/tabelas">Tabelas</a>
-          </li>
-          <li>
-            <a href="/modais">Modais</a>
-          </li>
-          <li>
-            <a href="/abas">Abas</a>
-          </li>
-          <li>
-            <a href="/cards">Cards</a>
-          </li>
-          <li>
-            <a href="/listas">Listas</a>
-          </li>
-          <li>
-            <a href="/forms">Forms</a>
-          </li>
-          <li>
-            <a href="/loading">Loading</a>
+          <li ng-repeat="rota in cCtrl.rotas track by $index"
+              ng-class="{active: rota.ativa}">
+            <a ng-href="{{rota.path}}" ng-bind="rota.nome"></a>
           </li>
         </ul>
     </div>

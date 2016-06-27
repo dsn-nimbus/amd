@@ -1,12 +1,3 @@
-#alt-rodape {
-  background-color: #85A5C0;
-  border-top-color: #4682B4;
-}
-
-#alt-rodape a {
-  color:whitesmoke;
-}
-
 #alt-cabecalho .navbar {
   background-color: #4682B4;
 }
@@ -23,6 +14,33 @@
 #alt-cabecalho .navbar-default .navbar-nav > .active > a:hover,
 #alt-cabecalho .navbar-default .navbar-nav > .active > a:focus {
   background-color: #85A5C0;
+}
+
+#alt-cabecalho .navbar-default .navbar-toggle .icon-bar {
+  background-color: whitesmoke;
+}
+
+#alt-cabecalho .nav li > a {
+  color: #333;
+}
+
+#alt-cabecalho .alt-opcoes-usuario-cabecalho {
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+#alt-cabecalho .alt-badge-sem-contagem-opcoes-usuario {
+  background-color: #a94442;
+  box-shadow: 0 0 1px whitesmoke;
+}
+
+#alt-rodape {
+  background-color: #85A5C0;
+  border-top-color: #4682B4;
+}
+
+#alt-rodape a {
+  color:whitesmoke;
 }
 
 .nav-tabs > li.active > a,
@@ -64,22 +82,8 @@
   border-bottom-color: rgba(133, 165, 192, 0.55);;
 }
 
-#alt-cabecalho .navbar-default .navbar-toggle .icon-bar {
-  background-color: whitesmoke;
-}
-
-#alt-cabecalho .nav li > a {
-  color: #333;
-}
-
-#alt-cabecalho .alt-opcoes-usuario-cabecalho {
-  background-color: transparent;
-  color: whitesmoke;
-}
-
-#alt-cabecalho .alt-badge-sem-contagem-opcoes-usuario {
-  background-color: #a94442;
-  box-shadow: 0 0 1px whitesmoke;
+.alt-produto-cabecalho:hover {
+  background-color: rgba(70, 130, 180, 0.15);
 }
 
 @media(min-width: 768px) {
