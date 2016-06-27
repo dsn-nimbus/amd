@@ -20,7 +20,9 @@
           templateUrl: 'views/cards.html'
         })
         .when('/listas', {
-          templateUrl: 'views/listas.html'
+          templateUrl: 'views/listas.html',
+          controller: 'ListasController',
+          controllerAs: 'lCtrl'
         })
         .when('/forms', {
           templateUrl: 'views/forms.html'
@@ -80,5 +82,16 @@
 
       $rootScope.$on('$viewContentLoaded', this._selecionaRota.bind(this));
       $rootScope.$on('$locationChangeSuccess', this._selecionaRota.bind(this));
+    }])
+    .controller('ListasController', [function() {
+      this.lista = [];
+
+      for (var i = 0; i < 5; i++) {
+        this.lista.push({
+          imagem: 'https://avatars0.githubusercontent.com/u/7040162?v=3&s=4i0',
+          mensagem: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur et risus sed congue. Sed libero ipsum, laoreet venenatis dui ac, accumsan porta dolor. Pellentesque sollicitudin lorem orci, et consectetur neque porttitor at. Vestibulum vehicula volutpat tortor, nec tincidunt diam pellentesque sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque scelerisque tristique dui, vel rutrum tortor molestie eu. Aliquam in efficitur mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultrices luctus lectus vitae efficitur. Phasellus vel eros dui.',
+          acao: 'Alguma coisa'
+        });
+      }
     }]);
 }(angular));
