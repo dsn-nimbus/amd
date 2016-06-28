@@ -214,6 +214,14 @@
         element.on('click', function() {
           $('#alt-carregando-info-container').removeClass('hidden');
 
+          if (element.find('.fa').eq(0).hasClass('fa-refresh')) {
+            element.find('.fa').eq(0).addClass('fa-spin');
+
+            setTimeout(function() {
+              element.find('.fa').eq(0).removeClass('fa-spin');
+            }, 1000);
+          }
+
           setTimeout(function() {
             $('#alt-carregando-info-container').addClass('hidden');
           }, 1000);
