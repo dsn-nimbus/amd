@@ -16,7 +16,9 @@
           templateUrl: 'views/modais.html'
         })
         .when('/abas', {
-          templateUrl: 'views/abas.html'
+          templateUrl: 'views/abas.html',
+          controller: 'AbasController',
+          controllerAs: 'aCtrl'
         })
         .when('/cards', {
           templateUrl: 'views/cards.html'
@@ -88,6 +90,96 @@
     .controller('PrincipalController', [function() {
 
     }])
+    .controller('AbasController', [function() {
+      this.abas = [
+        {
+          nome: 'Aba 1',
+          id: "aba-1",
+          ativa: true,
+          tabela: {
+            head: ['A1', 'B1', 'C1'],
+            body: [
+              ['1', '2', '3'],
+              ['1', '2', '3'],
+              ['1', '2', '3']
+            ]
+          }
+        },
+        {
+          nome: 'Aba 2',
+          id: "aba-2",
+          ativa: false,
+          tabela: {
+            head: ['A2', 'B2', 'C2'],
+            body: [
+              ['1', '2', '3'],
+              ['1', '2', '3'],
+              ['1', '2', '3']
+            ]
+          }
+        },
+        {
+          nome: 'Aba 3',
+          id: "aba-3",
+          ativa: false,
+          tabela: {
+            head: ['A3', 'B3', 'C3'],
+            body: [
+              ['1', '2', '3'],
+              ['1', '2', '3'],
+              ['1', '2', '3']
+            ]
+          }
+        },
+        {
+          nome: 'Aba 4',
+          id: "aba-4",
+          ativa: false,
+          tabela: {
+            head: ['A4', 'B4', 'C4'],
+            body: [
+              ['1', '2', '3'],
+              ['1', '2', '3'],
+              ['1', '2', '3']
+            ]
+          }
+        },
+        {
+          nome: 'Aba 5',
+          id: "aba-5",
+          ativa: false,
+          tabela: {
+            head: ['A5', 'B5', 'C5'],
+            body: [
+              ['1', '2', '3'],
+              ['1', '2', '3'],
+              ['1', '2', '3']
+            ]
+          }
+        },
+        {
+          nome: 'Aba 6',
+          id: "aba-6",
+          ativa: false,
+          tabela: {
+            head: ['A6', 'B6', 'C6'],
+            body: [
+              ['1', '2', '3'],
+              ['1', '2', '3'],
+              ['1', '2', '3']
+            ]
+          }
+        }
+      ]
+
+      this.ativaAba = function(aba) {
+        this.abas.forEach(function(a) {
+          a.ativa = false;
+        })
+
+        aba.ativa = true;
+      }
+    }])
     .controller('ModaisController', [function() {
 
     }])
@@ -112,6 +204,21 @@
           mensagem: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur et risus sed congue. Sed libero ipsum, laoreet venenatis dui ac, accumsan porta dolor. Pellentesque sollicitudin lorem orci, et consectetur neque porttitor at. Vestibulum vehicula volutpat tortor, nec tincidunt diam pellentesque sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque scelerisque tristique dui, vel rutrum tortor molestie eu. Aliquam in efficitur mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultrices luctus lectus vitae efficitur. Phasellus vel eros dui.',
           acao: 'Alguma coisa'
         });
+      }
+    }])
+    .directive('exibeLoading', [function() {
+      return function link(scope, element, attrs) {
+        element.on('click', function() {
+          $('#alt-carregando-info-container').removeClass('hidden');
+
+          setTimeout(function() {
+            $('#alt-carregando-info-container').addClass('hidden');
+          }, 1000);
+        });
+
+        scope.$on('$destroy', function() {
+          element.off('click');
+        })
       }
     }]);
 }(angular));

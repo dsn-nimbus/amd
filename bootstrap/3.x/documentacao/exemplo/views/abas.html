@@ -3,72 +3,34 @@
     <p class="alt-titulo-view">Abas</p>
   </div>
 
-  <ul class="nav nav-tabs espacamento-bottom" role="tablist">
-    <li role="presentation" class="active">
-      <a href="#aba-1" data-toggle="tab">Aba 1</a>
-    </li>
-
-    <li role="presentation">
-      <a href="#aba-2" data-toggle="tab">Aba 2</a>
-    </li>
-
-    <li role="presentation" data-toggle="tab">
-      <a href="#aba-3" data-toggle="tab">Aba 3</a>
-    </li>
-
-    <li role="presentation" data-toggle="tab">
-      <a href="#aba-4" data-toggle="tab">Aba 4</a>
-    </li>
-
-    <li role="presentation" data-toggle="tab">
-      <a href="#aba-5" data-toggle="tab">Aba 5</a>
-    </li>
-
-    <li role="presentation" data-toggle="tab">
-      <a href="#aba-6" data-toggle="tab">Aba 6</a>
-    </li>
-  </ul>
+  <div>
+    <ul class="nav nav-tabs espacamento-bottom" role="tablist">
+      <li role="presentation" ng-class="{active: aba.ativa}" ng-repeat="aba in aCtrl.abas">
+        <a href ng-click="aCtrl.ativaAba(aba);" ng-bind="aba.nome"></a>
+      </li>
+    </ul>
 
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="aba-1">
-      <h4 class="text-muted">Informações aba 1</h4>
-      <h4 class="text-muted">Informações aba 1</h4>
-      <h4 class="text-muted">Informações aba 1</h4>
-      <h4 class="text-muted">Informações aba 1</h4>
-    </div>
+    <div role="tabpanel" class="tab-pane" ng-class="{active: aba.ativa}" id="{{aba.id}}"
+         ng-repeat="aba in aCtrl.abas">
 
-    <div role="tabpanel" class="tab-pane" id="aba-2">
-      <h4 class="text-muted">Informações aba 2</h4>
-      <h4 class="text-muted">Informações aba 2</h4>
-      <h4 class="text-muted">Informações aba 2</h4>
-      <h4 class="text-muted">Informações aba 2</h4>
-    </div>
+      <h4 class="text-muted alt-espacamento-top">Informações {{aba.nome}}</h4>
 
-    <div role="tabpanel" class="tab-pane" id="aba-3">
-      <h4 class="text-muted">Informações aba 3</h4>
-      <h4 class="text-muted">Informações aba 3</h4>
-      <h4 class="text-muted">Informações aba 3</h4>
-      <h4 class="text-muted">Informações aba 3</h4>
-    </div>
+      <table class="table table-condensed alt-sombra-secundaria alt-espacamento-bottom">
+        <thead>
+          <tr>
+            <th ng-repeat="h in aba.tabela.head track by $index" ng-bind="h"></th>
+          </tr>
+        </thead>
 
-    <div role="tabpanel" class="tab-pane" id="aba-4">
-      <h4 class="text-muted">Informações aba 4</h4>
-      <h4 class="text-muted">Informações aba 4</h4>
-      <h4 class="text-muted">Informações aba 4</h4>
-      <h4 class="text-muted">Informações aba 4</h4>
-    </div>
+        <tbody>
+          <tr ng-repeat="b in aba.tabela.body track by $index">
+            <td ng-repeat="info in b track by $index" ng-bind="info"></td>
+          </tr>
+        </body>
+      </table>
 
-    <div role="tabpanel" class="tab-pane" id="aba-5">
-      <h4 class="text-muted">Informações aba 5</h4>
-      <h4 class="text-muted">Informações aba 5</h4>
-      <h4 class="text-muted">Informações aba 5</h4>
-      <h4 class="text-muted">Informações aba 5</h4>
+      <small class="text-muted">* Informações sobre {{aba.nome}}</small>
     </div>
-
-    <div role="tabpanel" class="tab-pane" id="aba-6">
-      <h4 class="text-muted">Informações aba 6</h4>
-      <h4 class="text-muted">Informações aba 6</h4>
-      <h4 class="text-muted">Informações aba 6</h4>
-      <h4 class="text-muted">Informações aba 6</h4>
-    </div>
-  </section>
+  </div>
+</section>
