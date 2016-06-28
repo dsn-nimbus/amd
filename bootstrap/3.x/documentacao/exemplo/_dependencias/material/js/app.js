@@ -195,6 +195,9 @@
     .controller('CardsController', [function() {
 
     }])
+    .controller('BotoesController', [function() {
+
+    }])
     .controller('ListasController', [function() {
       this.lista = [];
 
