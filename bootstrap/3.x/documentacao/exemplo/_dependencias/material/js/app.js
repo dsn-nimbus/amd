@@ -5,7 +5,9 @@
     .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
       $routeProvider
         .when('/', {
-          templateUrl: 'views/main.html'
+          templateUrl: 'views/main.html',
+          controller: 'PrincipalController',
+          controllerAs: 'principalCtrl'
         })
         .when('/tabelas', {
           templateUrl: 'views/tabelas.html'
@@ -82,6 +84,24 @@
 
       $rootScope.$on('$viewContentLoaded', this._selecionaRota.bind(this));
       $rootScope.$on('$locationChangeSuccess', this._selecionaRota.bind(this));
+    }])
+    .controller('PrincipalController', [function() {
+
+    }])
+    .controller('ModaisController', [function() {
+
+    }])
+    .controller('FormsController', [function() {
+
+    }])
+    .controller('TabelasController', [function() {
+
+    }])
+    .controller('LoadingController', [function() {
+
+    }])
+    .controller('CardsController', [function() {
+
     }])
     .controller('ListasController', [function() {
       this.lista = [];
