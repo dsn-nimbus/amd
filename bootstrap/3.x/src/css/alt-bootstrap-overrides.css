@@ -247,7 +247,6 @@ blockquote small:before {
 }
 
 @media (min-width: 768px) { /* maior que isso já saiu da resolução que o bootstrap considera mobile */
-
   .navbar-collapse.collapsing,
   .navbar-collapse.in {
     margin-top: 0;
