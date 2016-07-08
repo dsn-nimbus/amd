@@ -1,0 +1,75 @@
+<section>
+  <div class="alt-titulo-view-container">
+    <p class="alt-titulo-view">Alertas</p>
+  </div>
+
+  <div>
+    <button type="button"
+            class="btn btn-default"
+            ng-click="alertasCtrl.exibe('#alt-alerta-flutuante-ok')">
+        Alerta sucesso        
+    </button>
+
+    <button type="button"
+            class="btn btn-default"
+            ng-click="alertasCtrl.exibe('#alt-alerta-flutuante-info')">
+        Alerta informação
+    </button>
+
+    <button type="button"
+            class="btn btn-default"
+            ng-click="alertasCtrl.exibe('#alt-alerta-flutuante-erro')">
+        Alerta erro
+    </button>
+
+</section>
+
+<section>
+    <div class="alerta-ok-container">
+        <div>
+            <div id="alt-alerta-flutuante-ok" 
+                class="alert alert-success alt-alerta-flutuante alt-sombra-secundaria" style="display: none;">
+                <button type="button" class="close" ng-click="alertasCtrl.fecha()">
+                <span aria-hidden="true">&times;</span>
+                </button>
+
+                <span class="fa fa-check fa-fw"></span>
+                <strong>Confirmado</strong>
+                <p class="alt-espacamento-top">Tudo certo!</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="alerta-info-container">
+        <div>
+            <div id="alt-alerta-flutuante-info" 
+                class="alert alert-info alt-alerta-flutuante alt-sombra-secundaria" style="display: none;">
+                <button type="button" class="close" ng-click="alertasCtrl.fecha()">
+                <span aria-hidden="true">&times;</span>
+                </button>
+
+                <span class="fa fa-info fa-fw"></span>
+                <strong>Informação</strong>
+                <p class="alt-espacamento-top">Apenas uma informação</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="alerta-erro-container">
+        <div>
+            <div id="alt-alerta-flutuante-erro" 
+                class="alert alert-danger alt-alerta-flutuante alt-sombra-secundaria" style="display: none;">
+                <button type="button" class="close" ng-click="alertasCtrl.fecha()">
+                <span aria-hidden="true">&times;</span>
+                </button>
+
+                <span class="fa fa-warning fa-fw"></span>
+                <strong>Ooops!</strong>
+                <p class="alt-espacamento-top">Ocorreu algum problema</p>
+                </div>
+            </div>
+    </div>
+
+</section>
+
+<exibe-codigo codigo="alertasCtrl.exemplo"></exibe-codigo>

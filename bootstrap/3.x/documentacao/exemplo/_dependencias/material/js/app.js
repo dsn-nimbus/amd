@@ -19,6 +19,11 @@
           controller: 'ModaisController',
           controllerAs: 'modaisCtrl'
         })
+        .when('/alertas', {
+          templateUrl: 'views/alertas.html',
+          controller: 'AlertasController',
+          controllerAs: 'alertasCtrl'
+        })
         .when('/abas', {
           templateUrl: 'views/abas.html',
           controller: 'AbasController',
@@ -59,6 +64,7 @@
       this.rotas = [
         {nome: 'Tabelas', path: '/tabelas', ativa: false},
         {nome: 'Modais', path: '/modais', ativa: false},
+        {nome: 'Alertas', path: '/alertas', ativa: false},
         {nome: 'Abas', path: '/abas', ativa: false},
         {nome: 'Cards', path: '/cards', ativa: false},
         {nome: 'Listas', path: '/listas', ativa: false},
@@ -238,6 +244,35 @@
     </div>
   </div>
 </div>`;
+    }]) 
+    .controller('AlertasController', ['$timeout', function($timeout) {
+      this.exemplo = `<div>
+  <div id="alt-alerta-flutuante-blanket" style="display: none"></div>
+  <div id="alt-alerta-flutuante" 
+      class="alert alert-danger alt-alerta-flutuante alt-sombra-secundaria" style="display: none;">
+        <button type="button" class="close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <span class="fa fa-warning fa-fw"></span>
+        <strong>Ooops!</strong>
+        <p class="alt-espacamento-top">Erro</p>
+  </div>
+</div>`;
+
+      this.exibe = function(el) {
+        this.fecha();
+        $(el).show();
+
+
+        $timeout(function() {
+          $(el).hide();
+        }, 5000);
+      }
+
+      this.fecha = function() {
+        $('.alert').hide();
+      }
     }])
     .controller('FormsController', [function() {
       this.exemplo = `<form class="alt-sombra-secundaria alt-card alt-espacamento-bottom">
