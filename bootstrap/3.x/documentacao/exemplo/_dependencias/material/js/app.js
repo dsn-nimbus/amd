@@ -10,10 +10,14 @@
           controllerAs: 'principalCtrl'
         })
         .when('/tabelas', {
-          templateUrl: 'views/tabelas.html'
+          templateUrl: 'views/tabelas.html',
+          controller: 'TabelasController',
+          controllerAs: 'tabelasCtrl'
         })
         .when('/modais', {
-          templateUrl: 'views/modais.html'
+          templateUrl: 'views/modais.html',
+          controller: 'ModaisController',
+          controllerAs: 'modaisCtrl'
         })
         .when('/abas', {
           templateUrl: 'views/abas.html',
@@ -21,7 +25,9 @@
           controllerAs: 'aCtrl'
         })
         .when('/cards', {
-          templateUrl: 'views/cards.html'
+          templateUrl: 'views/cards.html',
+          controller: 'CardsController',
+          controllerAs: 'cardsCtrl'
         })
         .when('/listas', {
           templateUrl: 'views/listas.html',
@@ -29,15 +35,20 @@
           controllerAs: 'lCtrl'
         })
         .when('/forms', {
-          templateUrl: 'views/forms.html'
+          templateUrl: 'views/forms.html',
+          controller: 'FormsController',
+          controllerAs: 'formsCtrl'
         })
         .when('/loading', {
-          templateUrl: 'views/loading.html'
+          templateUrl: 'views/loading.html',
+          controller: 'LoadingController',
+          controllerAs: 'loadingCtrl'
         })
         .otherwise({redirectTo: '/'})
 
       $locationProvider.html5Mode(true);
     }])
+    .constant('Clipboard', Clipboard)
     .controller('CabecalhoController', ['$rootScope', '$location', function($rootScope, $location) {
       this.usuario = {
         imagem: 'https://avatars0.githubusercontent.com/u/7040162?v=3&s=4i0',
@@ -181,19 +192,148 @@
       }
     }])
     .controller('ModaisController', [function() {
+      this.exemplo = `<div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
 
+      <div class="modal-header alt-cor-principal">
+        <button type="button" 
+                class="close" 
+                data-dismiss="modal" 
+                aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Título do modal</h4>
+      </div>
+
+      <div class="modal-body alt-overflow-hidden">
+        <div id="info-usuario-container" class="row">
+          <div class="col-xs-12 alt-espacamento-bottom">
+            <label>Nome</label>
+            <input type="text" class="form-control" value="Fulano Silva"/>
+          </div>
+
+          <div class="col-xs-12 alt-espacamento-bottom">
+            <label>Email</label>
+            <input type="email" class="form-control" value=""/>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 alt-espacamento-bottom">
+            <label>CPF</label>
+            <input type="text" class="form-control" value="123123123123"/>
+          </div>
+
+          <div class="col-xs-12 col-sm-6">
+            <label>Celular</label>
+            <input type="text" class="form-control" value="999575757"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Gravar</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+      </div>
+
+    </div>
+  </div>
+</div>`;
     }])
     .controller('FormsController', [function() {
+      this.exemplo = `<form class="alt-sombra-secundaria alt-card alt-espacamento-bottom">
+  <div class="row">
+    <div class="col-xs-12">
+      <label>Email</label>
+      <input type="email"
+             class="form-control" />
+    </div>
 
+    <div class="col-xs-12 alt-espacamento-top">
+      <label>Nome</label>
+      <input type="text"
+             class="form-control" />
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4 alt-espacamento-top">
+          <div class="col-xs-12 alt-sem-padding-left alt-sem-padding-right alt-campo-data-container">
+            <label>Algum input</label>
+            <input type="text"
+                   placeholder="__/__/____"
+                   class="form-control alt-campo-data" />
+
+              <span class="fa fa-fw fa-calendar alt-icone-data text-muted"></span>
+            </div>
+          </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4 alt-espacamento-top">
+          <div class="col-xs-12 alt-sem-padding-left alt-sem-padding-right alt-campo-data-container">
+            <label>Algum input</label>
+            <input type="text"
+                   placeholder="__/__/____"
+                   class="form-control alt-campo-data" />
+
+              <span class="fa fa-fw fa-calendar alt-icone-data text-muted"></span>
+            </div>
+          </div>
+
+      <div class="col-xs-12 alt-espacamento-top">
+        <label>Descrição</label>
+        <input type="text"
+               class="form-control" />
+      </div>
+
+      <div class="col-xs-12 alt-espacamento-top">
+        <label>Comentário</label>
+        <textarea type="text"
+                  rows="5"
+                 class="form-control"></textarea>
+      </div>
+
+      <div class="col-xs-12 alt-espacamento-top text-right">
+        <button type="button"
+                class="btn btn-primary">Gravar</button>
+
+        <button type="button"
+                class="btn btn-default">Cancelar</button>
+      </div>
+  </div>
+</form>
+`;
     }])
     .controller('TabelasController', [function() {
+      this.exemplo = `<div class="col-xs-22 col-sm-6 alt-espacamento-bottom">
+  <table class="table table-condensed table-striped alt-sombra-secundaria">
+    <thead>
+      <tr>
+        <th>Empresa</th>
+        <th>CNPJ</th>
+        <th>Status</th>
+      </tr>
+    </thead>
 
+    <tbody>
+      <tr>
+        <td data-alt-titulo="Empresa">EMPRESA LTDA.</td>
+        <td data-alt-titulo="CNPJ">12345678901234</td>
+        <td data-alt-titulo="Status">
+          <label class="label label-success">Ativa</label>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>`;
     }])
     .controller('LoadingController', [function() {
 
     }])
     .controller('CardsController', [function() {
-
+      this.exemplo = `<div class="col-xs-12 col-sm-4 alt-espacamento-bottom">
+  <h4 class="text-muted">Algum subtitulo 9</h4>
+  <div class="alt-sombra-secundaria alt-card">
+    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem.</p>
+  </div>
+</div>`;
     }])
     .controller('BotoesController', [function() {
 
@@ -208,6 +348,23 @@
           acao: 'Alguma coisa'
         });
       }
+
+      this.exemplo = `<div class="alt-lista-container alt-sombra-secundaria">
+  <div class="alt-padding-medio alt-lista-item">
+    <div class="alt-lista-item-imagem-container">
+      <img src="https://avatars0.githubusercontent.com/u/7040162?v=3&s=4i0" />
+    </div>
+
+    <div class="alt-lista-item-acao-container">
+      <button type="button"
+              class="btn btn-default alt-lista-item-acao">Ação</button>
+    </div>
+
+    <div class="alt-lista-item-info-container">
+      <p class="alt-lista-item-info">Mensagem</p>
+    </div>
+  </div>
+</div>`;
     }])
     .directive('exibeLoading', [function() {
       return function link(scope, element, attrs) {
@@ -230,6 +387,41 @@
         scope.$on('$destroy', function() {
           element.off('click');
         })
+      }
+    }])
+    .directive('exibeCodigo', ['Clipboard', function(Clipboard) {
+      return {
+        restrict: 'E',
+        templateUrl: '_dependencias/material/includes/codigo.html', 
+        scope: {
+          codigo: '='
+        },
+        link: function(scope, element, attrs) {
+          scope.copiado = false;
+
+          new Clipboard('.btn-clipboard');
+
+          var destroi = scope.$watch('codigo', function(info) {
+            if (!!info) {
+              scope.codigo = info;
+            }
+          });
+
+          element.find('#ativador-modal').on('click', function() {
+            scope.copiado = false;
+            $('#modal-codigo').modal();
+          });
+
+          scope.copiaFeita = function() {
+            scope.copiado = true;
+          }
+
+          scope.$on('$destroy', function() {
+            element.off('click');
+            destroi();
+            scope.copiado = false;
+          });
+        }
       }
     }]);
 }(angular));

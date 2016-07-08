@@ -1,0 +1,31 @@
+.btn-codigo-container {
+    position: fixed;
+    right: 35px;
+    bottom: 75px;
+    background-color: #4682B4;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 25px 15px;
+    border: 1px solid transparent;
+    transition: background-color .3s;
+    box-shadow: 0 0 4px rgba(0,0,0,.14),
+                0 4px 8px rgba(0,0,0,.28);       
+}
+
+.btn-codigo-container:active {
+    background-color: #4B8BC1;
+    border-color:  cornflowerblue;
+    box-shadow: none;
+}
+
+pre {
+    border-radius: 0;
+    border: none;
+    border-left-width: 5px;
+    background-color: transparent;
+    padding-left: 30px;
+    border-left-style: solid;
+    border-left-color: rgba(70, 130, 180, 0.42);
+    margin-bottom: 0;
+}
