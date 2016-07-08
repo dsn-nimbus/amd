@@ -245,7 +245,7 @@
   </div>
 </div>`;
     }]) 
-    .controller('AlertasController', ['$timeout', function($timeout) {
+    .controller('AlertasController', [function() {
       this.exemplo = `<div>
   <div id="alt-alerta-flutuante-blanket" style="display: none"></div>
   <div id="alt-alerta-flutuante" 
@@ -264,10 +264,9 @@
         this.fecha();
         $(el).show();
 
-
-        $timeout(function() {
+        setTimeout(function() {
           $(el).hide();
-        }, 5000);
+        }, 10000);
       }
 
       this.fecha = function() {
