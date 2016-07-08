@@ -108,6 +108,35 @@
 
     }])
     .controller('AbasController', [function() {
+      this.exemplo = `<div>
+    <ul class="nav nav-tabs espacamento-bottom" role="tablist">
+      <li role="presentation">
+        <a href="#aba1">Aba1</a>
+      </li>
+
+      <li role="presentation">
+        <a href="#aba2">Aba2</a>
+      </li>
+
+      <li role="presentation active">
+        <a href="#aba3">Aba3</a>
+      </li>
+    </ul>
+
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane" id="aba1">
+      <h4 class="text-muted alt-espacamento-top">Informações Aba1</h4>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="aba2">
+      <h4 class="text-muted alt-espacamento-top">Informações Aba2</h4>
+    </div>
+
+    <div role="tabpanel" class="tab-pane active" id="aba3">
+      <h4 class="text-muted alt-espacamento-top">Informações Aba3</h4>
+    </div>
+</div>`;
+
       this.abas = [
         {
           nome: 'Aba 1',
@@ -358,7 +387,12 @@
 </div>`;
     }])
     .controller('LoadingController', [function() {
-
+      this.exemplo = `<div id="alt-carregando-info-container" class="hidden">
+  <div id="alt-carregando-info-coberta"></div>
+  <div id="alt-carregando-info-aviso">
+    <p class="fa fa-fw fa-refresh fa-spin"></p>
+  </div>
+</div>`;
     }])
     .controller('CardsController', [function() {
       this.exemplo = `<div class="col-xs-12 col-sm-4 alt-espacamento-bottom">
