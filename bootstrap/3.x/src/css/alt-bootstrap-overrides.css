@@ -186,6 +186,7 @@
 
 .navbar .navbar-toggle {
     border: none;
+    margin-right: 0;
 }
 
 .navbar-collapse.collapsing,

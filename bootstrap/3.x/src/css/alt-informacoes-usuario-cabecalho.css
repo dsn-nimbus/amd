@@ -71,4 +71,8 @@
   .alt-informacoes-usuario-container .dropdown-menu {
     min-width: 400px;
   }
+
+  .alt-imagem-usuario-cabecalho {
+    margin-right: 0;
+  }
 }
