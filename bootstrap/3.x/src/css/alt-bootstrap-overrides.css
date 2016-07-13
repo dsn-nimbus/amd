@@ -45,6 +45,10 @@
   vertical-align: middle;
 }
 
+.table:not(.table-bordered) {
+  border-collapse: separate;
+}
+
 .btn:focus {
   outline: 0;
 }
