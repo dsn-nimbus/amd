@@ -189,6 +189,11 @@
     margin-right: 0;
 }
 
+.navbar-collapse {
+  margin-left: -999px;
+  transition: margin-left .4s ease-in-out;
+}
+
 .navbar-collapse.collapsing,
 .navbar-collapse.in {
     margin-top: 6px;
@@ -256,6 +261,10 @@ blockquote small:before {
     background-color: transparent;
     box-shadow: none;
     max-width: 100%;
+  }
+
+  .navbar-collapse {
+    margin-left: 0;
   }
 
   .navbar-brand {

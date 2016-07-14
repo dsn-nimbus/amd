@@ -491,5 +491,23 @@
           });
         }
       }
+    }])
+    .directive('altToggleMenu', [function() {
+        return function(scope, element, attrs) {
+          var _el = ng.element(attrs.altToggleMenu);
+          _el.css({height: 'auto'});
+
+          element.on('click', function() {
+            if (_el.css('margin-left') !== "0px") {
+              _el.css({'margin-left': 0});
+            } else {
+              _el.css({'margin-left': -999});
+            }
+          });
+
+          scope.$on('$destroy', function() {
+            element.off('click');
+          });
+        }
     }]);
 }(angular));
