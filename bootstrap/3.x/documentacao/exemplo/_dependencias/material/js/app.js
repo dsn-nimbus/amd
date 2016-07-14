@@ -498,11 +498,7 @@
           _el.css({height: 'auto'});
 
           element.on('click', function() {
-            if (_el.css('margin-left') !== "0px") {
-              _el.css({'margin-left': 0});
-            } else {
-              _el.css({'margin-left': -999});
-            }
+            _el.toggleClass('in');
           });
 
           scope.$on('$destroy', function() {
