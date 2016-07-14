@@ -20,8 +20,17 @@
   background-color: whitesmoke;
 }
 
+#alt-cabecalho .navbar-collapse.collapsing, 
+#alt-cabecalho .navbar-collapse.in {
+  background-color: #fff;
+}
+
 #alt-cabecalho .nav li > a {
   color: #333;
+}
+
+#alt-cabecalho .nav li.active > a {
+  color: #fff;
 }
 
 #alt-cabecalho .alt-opcoes-usuario-cabecalho {
@@ -89,5 +98,10 @@
 @media(min-width: 768px) {
   #alt-cabecalho .navbar .navbar-nav a {
     color: whitesmoke;
+  }
+
+  #alt-cabecalho .navbar-collapse.collapsing, 
+  #alt-cabecalho .navbar-collapse.in {
+    background-color: #4682B4;
   }
 }
