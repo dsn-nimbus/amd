@@ -71,6 +71,10 @@ select.alt-input-invalido {
   box-shadow: 0 0 3px #fff;
 }
 
+.alt-fundo-branco {
+  background-color: #fff;  
+}
+
 select {
   border-color: #ccc;
 }
