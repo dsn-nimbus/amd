@@ -135,7 +135,8 @@ main.container {
     padding-right: 5px;
 }
 
-[ng-view] {
+[ng-view],
+.alt-view {
     margin-top: 25px;
     padding: 5px 10px;
 }
