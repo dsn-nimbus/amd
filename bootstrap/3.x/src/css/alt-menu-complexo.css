@@ -9,11 +9,12 @@
 .alt-dropdown-menu-complexo .alt-cabecalho-menu-titulo-grupo {
     margin-top: 15px;
     margin-bottom: 15px;
+	padding-left: 30px;
 }
 
 .alt-dropdown-menu-complexo .alt-cabecalho-menu-sub-grupo {
     list-style: none;
-    padding-left: 30px;
+    padding-left: 0;
 }
 
 .alt-dropdown-menu-complexo .alt-cabecalho-menu-sub-grupo li {
@@ -22,7 +23,7 @@
 
 .alt-dropdown-menu-complexo .alt-cabecalho-menu-sub-grupo li > a {
     display: block;
-    padding-left: 15px;
+    padding-left: 45px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -45,6 +46,7 @@
         margin-top: 5px;
 		margin-bottom: 5px;
         margin-left: 15px;
+        padding-left: 0;
     }
 
     .alt-dropdown-menu-complexo .alt-cabecalho-menu-sub-grupo {
