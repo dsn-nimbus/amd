@@ -12,13 +12,13 @@
 }
 
 .alt-login-logo {
-    max-width: 340px;
+    max-width: 250px;
     height: auto;
     margin: 0 auto;
 }
 
 @media(min-width: 768px) {
     .alt-login-card {
-        max-width: 450px;
+        max-width: 360px;
     }
 }
