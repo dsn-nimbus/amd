@@ -1,4 +1,4 @@
-<section>
+<section id="modais-container">
   <div class="alt-titulo-view-container">
     <p class="alt-titulo-view">Modais</p>
   </div>
@@ -24,6 +24,14 @@
             data-target="#modal-critico">
         Modal crítico
     </button>
+
+    <button type="button"
+            class="btn btn-default"
+            data-toggle="modal"
+            data-target="#modal-sem-titulo">
+        Modal sem título
+    </button>
+
   </div>
 </section>
 
@@ -118,5 +126,26 @@
     </div>
   </div>
 </div>
+
+<div class="modal fade" id="modal-sem-titulo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="alt-espacamento-top alt-espacamento-bottom">
+          <p>Deseja realmente excluir sua conta?</p>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sim</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 <exibe-codigo codigo="modaisCtrl.exemplo"></exibe-codigo>

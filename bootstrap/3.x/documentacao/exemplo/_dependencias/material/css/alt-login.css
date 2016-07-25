@@ -1,0 +1,24 @@
+.alt-login-card {
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 45px;
+    box-shadow: 0 0 4px rgba(0,0,0,.14),
+                0 4px 8px rgba(0,0,0,.28);            
+}
+
+.alt-login-logo-container {
+    text-align: center;   
+}
+
+.alt-login-logo {
+    max-width: 340px;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media(min-width: 768px) {
+    .alt-login-card {
+        max-width: 450px;
+    }
+}
