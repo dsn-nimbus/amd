@@ -63,37 +63,37 @@
     .controller('LoginController', [function() {
       this.exemplo = `<div class="alt-login-card">
   <form>
-      <div class="alt-full-width alt-login-logo-container">
+      <div class="alt-login-logo-container">
           <img src="https://passaporte2-hml.alterdata.com.br/images/logo_passaporte.82c1359c.svg" 
                class="alt-login-logo" />
       </div>
 
-      <div class="alt-full-width alt-espacamento-top">
+      <div class="alt-espacamento-top">
           <label class="text-muted">Usuário</label>
           <input type="text" 
                   class="form-control"/>
       </div>
 
-      <div class="alt-full-width alt-espacamento-top">
+      <div class="alt-espacamento-top">
           <label class="text-muted">Senha</label>
           <input type="text" 
                   class="form-control"/>
       </div>
 
-      <div class="alt-full-width alt-espacamento-top">
+      <div class="alt-espacamento-top">
           <label class="text-muted">
               <input type="checkbox" />
               Manter conectado
           </label>
       </div>
 
-      <div class="alt-full-width alt-espacamento-top">
+      <div class="alt-espacamento-top">
           <button type="button"
                   exibe-loading
                   class="btn btn-block btn-primary">Entrar</button>
       </div>
 
-      <div class="alt-full-width alt-espacamento-top text-right">
+      <div class="alt-espacamento-top text-right">
           <a href="#">Esqueci minha senha</a>                       
       </div>
   </form>
