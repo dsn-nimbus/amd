@@ -88,7 +88,7 @@
   }
 
   .alt-lista-item .alt-lista-item-imagem-grande-container + .alt-lista-item-acao-container + .alt-lista-item-info-container {
-    width: calc(100% - 350px);
+    width: calc(100% - 300px);
   }
 
   .alt-lista-item .alt-lista-item-imagem-container,
