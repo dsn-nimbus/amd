@@ -12,3 +12,10 @@
     right: 22px;
     color: #777;
 }
+
+.alt-campo-busca-container .btn.alt-icone-busca {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    box-shadow: none;
+}
