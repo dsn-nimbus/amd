@@ -2,3 +2,11 @@
   background-color: #fff;
   padding: 15px;
 }
+
+.alt-card-titulo {
+	display: block;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
