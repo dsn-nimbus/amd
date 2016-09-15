@@ -75,6 +75,10 @@ select.alt-input-invalido {
   background-color: #fff;  
 }
 
+.alt-table-com-borda {
+	border: 1px solid #ddd;
+}
+
 select {
   border-color: #ccc;
 }
