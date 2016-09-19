@@ -86,8 +86,16 @@
   margin-left: 15px;
 }
 
+.alt-container-pequeno {
+  max-width: 500px;
+}
+
 .alt-container-medio {
   max-width: 700px;
+}
+
+.alt-container-grande {
+  max-width: 999px;
 }
 
 .alt-container-centralizado {
