@@ -7,11 +7,13 @@ const CAMINHO_DOCUMENTACAO_EXEMPLO_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao
 const CAMINHO_DOCUMENTACAO_MATERIAL_3 = `${CAMINHO_BASE_BOOTSTRAP_3}/documentacao/exemplo/_dependencias/material/`;
 
 module.exports = {
-  v3: {
-    doc: CAMINHO_DOCUMENTACAO_BOOTSTRAP_3,
-    dist: CAMINHO_DIST_BOOTSTRAP_3,
-    css: CAMINHO_SRC_CSS_BOOTSTRAP_3,
-    material: CAMINHO_DOCUMENTACAO_MATERIAL_3,
-    exemplo: CAMINHO_DOCUMENTACAO_EXEMPLO_3
+  bootstrap: {
+    v3: {
+      doc: CAMINHO_DOCUMENTACAO_BOOTSTRAP_3,
+      dist: CAMINHO_DIST_BOOTSTRAP_3,
+      css: CAMINHO_SRC_CSS_BOOTSTRAP_3,
+      material: CAMINHO_DOCUMENTACAO_MATERIAL_3,
+      exemplo: CAMINHO_DOCUMENTACAO_EXEMPLO_3
+    }
   }
 }

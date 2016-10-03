@@ -1,5 +1,5 @@
 import gulp from 'gulp';
-import * as constantes from '../constantes';
+import * as constantes from './constantes';
 
 gulp.task('copia-dist-doc-b3', () => {
   const DIST = constantes.bootstrap.v3.dist;
