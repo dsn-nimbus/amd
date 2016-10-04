@@ -101,9 +101,9 @@
     }])
     .controller('CabecalhoController', ['$rootScope', '$location', function($rootScope, $location) {
       this.usuario = {
-        imagem: 'https://avatars0.githubusercontent.com/u/7040162?v=3&s=4i0',
-        nome: 'Fulano da Silva',
-        email: 'fulanosilva@gmail.com'
+        avatar: 'https://avatars0.githubusercontent.com/u/7040162?v=3&s=4i0',
+        nomeUsuario: 'Fulano da Silva',
+        emailUsuario: 'fulanosilva@gmail.com'
       }
 
       this.rotas = [
@@ -118,22 +118,24 @@
         {nome: 'Loading', path: '/loading', ativa: false},
       ]
 
-      this.produtos = [
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
-        {nome: 'Nome do Produto', logo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'}
-      ]
+      this.produtos = {
+        habilitados: [
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'},
+          {nome: 'Nome do Produto', urlLogo: 'https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png'}
+        ]
+      };
 
       this._selecionaRota = function() {
         var _path = $location.path();
