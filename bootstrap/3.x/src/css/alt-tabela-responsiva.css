@@ -50,6 +50,11 @@ table.alt-tabela-responsiva td {
   text-align: center;
 } 
 
+table.alt-tabela-responsiva th.text-right, 
+table.alt-tabela-responsiva td.text-right {
+  text-align: right;
+} 
+
 table.alt-tabela-responsiva td {
   display: block;
   text-align: right;
