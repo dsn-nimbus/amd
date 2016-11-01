@@ -23,8 +23,16 @@
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
   float: right;
-  margin-right: 2px;
-  margin-left: 10px;
+  float: right;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 5px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__clear {
+	margin-top: 0;
+	margin-right: 0;
+	padding: 0 1px;
 }
 
 .select2-container .select2-selection--multiple {
