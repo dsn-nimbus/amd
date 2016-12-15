@@ -5,10 +5,13 @@
 .alt-lista-item {
   position: relative;
   overflow: hidden;
-  border-bottom: 1px solid #ddd;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #fff;
+}
+
+.alt-lista-item:not(:last-child) {
+  border-bottom: 1px solid #ddd;
 }
 
 .alt-lista-item .alt-lista-item-info-container {
