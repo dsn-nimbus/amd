@@ -3,10 +3,14 @@
   padding: 15px;
 }
 
-.alt-card-titulo {
+.alt-card .alt-card-titulo {
 	display: block;
-    border-bottom: 1px solid #ccc;
-    font-size: 18px;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+  padding: 15px;
+  margin: -15px;
+}
+
+.alt-card .alt-card-conteudo {	
+  margin-top: 30px;
 }
