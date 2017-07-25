@@ -2,6 +2,10 @@
   overflow: hidden;
 }
 
+.alt-overflow-auto {
+  overflow: hidden;
+}
+
 .alt-display-block {
      display: block;
  }
