@@ -55,9 +55,7 @@
 }
 
 .modal-body {
-  font-size: 14px;
-  overflow-y: auto;
-  max-height: calc(100vh - 143px);
+  font-size: 14px; 
 }
 
 .modal-body p:last-of-type {
