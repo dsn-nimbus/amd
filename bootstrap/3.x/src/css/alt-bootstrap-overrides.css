@@ -58,6 +58,11 @@
   font-size: 14px; 
 }
 
+.modal-body.alt-modal-body-altura-limitada {
+	max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
 .modal-body p:last-of-type {
   margin-bottom: 0;
 }
