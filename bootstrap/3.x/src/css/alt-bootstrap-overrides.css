@@ -231,7 +231,7 @@
 	color: #a94442;
 }
 
-.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+.dropdown-menu>li>a.text-danger:focus, .dropdown-menu>li>a.text-danger:hover {
 	color: #a94442;
 }
 
