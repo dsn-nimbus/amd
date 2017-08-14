@@ -227,6 +227,14 @@
   min-width: auto;
 }
 
+.dropdown-menu>li>a.text-danger {
+	color: #a94442;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	color: #a94442;
+}
+
 .navbar-brand {
   padding: 13px 0;
 }
