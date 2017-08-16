@@ -235,6 +235,22 @@
 	color: #a94442;
 }
 
+.dropdown-menu>li>a.text-success {
+	color: #3c763d;
+}
+
+.dropdown-menu>li>a.text-success:focus, .dropdown-menu>li>a.text-success:hover {
+	color: #3c763d;
+}
+
+.dropdown-menu>li>a.text-info {
+	color: #31708f;
+}
+
+.dropdown-menu>li>a.text-info:focus, .dropdown-menu>li>a.text-info:hover {
+	color: #31708f;
+}
+
 .navbar-brand {
   padding: 13px 0;
 }
