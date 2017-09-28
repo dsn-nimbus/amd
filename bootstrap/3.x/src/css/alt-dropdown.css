@@ -1,0 +1,25 @@
+.alt-dropdown-agrupador-botoes {
+  top: 36px;
+}
+
+.alt-seta-dropdown-agrupador-botoes::before{
+  content: "";
+  border-bottom: 10px solid #fff;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -10px;
+  right: 4px;
+  z-index: 10;
+}
+
+.alt-seta-dropdown-agrupador-botoes::after{
+  content: "";
+  border-bottom: 12px solid #ccc;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  position: absolute;
+  top: -12px;
+  right: 2px;
+  z-index: 9;
+}
