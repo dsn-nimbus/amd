@@ -13,11 +13,25 @@
     color: #777;
 }
 
-.alt-campo-busca-container .btn {
+.alt-campo-busca-container .btn,
+.alt-campo-busca-container .btn.alt-btn-icone-duplo {	
     position: absolute;
     top: 25px;
     right: 15px;
     box-shadow: none;
+}
+
+.alt-campo-busca-container .btn {
+	right: 15px;
+}
+
+.alt-campo-busca-container .btn.alt-btn1-icone-duplo {
+    right: 52px;
+    border-right: none;
+}
+
+.alt-campo-busca-container .btn.alt-btn2-icone-duplo {
+    right: 15px;
 }
 
 .alt-campo-busca-container .btn .alt-icone-busca {
