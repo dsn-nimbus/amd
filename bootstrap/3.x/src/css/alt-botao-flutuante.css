@@ -21,6 +21,10 @@
     background-color: #4B8BC1;
     border-color:  cornflowerblue;
     box-shadow: none;
-	text-decoration: none;
+}
+
+.alt-botao-flutuante:active,
+.alt-botao-flutuante:hover {
+    text-decoration: none;
 	color: #fff;
 }
