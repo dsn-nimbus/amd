@@ -2,6 +2,7 @@
     position: fixed;
     right: 35px;
     bottom: 75px;
+	font-size: 20px;	
     background-color: #4682B4;
     color: #fff;
     cursor: pointer;
@@ -14,4 +15,10 @@
     box-shadow: 0 0 4px rgba(0,0,0,.14), 
 				0 4px 8px rgba(0,0,0,.28);
     text-align: center;
+}
+
+.alt-botao-flutuante:active {
+    background-color: #4B8BC1;
+    border-color:  cornflowerblue;
+    box-shadow: none;
 }
