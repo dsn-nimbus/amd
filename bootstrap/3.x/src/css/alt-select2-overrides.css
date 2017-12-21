@@ -42,3 +42,7 @@
 .select2-container .select2-cor-opcao-criar-novo {
   color: #333;
 }
+
+select.ng-invalid + .select2-container .select2-selection {
+  border: 1px solid #d43f3a;
+}
