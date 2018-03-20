@@ -1,5 +1,21 @@
+.alt-overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.alt-overflow-y-hidden {
+  overflow-y: hidden;
+}
+
 .alt-overflow-hidden {
   overflow: hidden;
+}
+
+.alt-overflow-y-auto {
+  overflow-y: auto;
+}
+
+.alt-overflow-x-auto {
+  overflow-x: auto;
 }
 
 .alt-overflow-auto {
