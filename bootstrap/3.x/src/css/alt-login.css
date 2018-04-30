@@ -2,7 +2,7 @@
     overflow: hidden;
     padding: 20px;
     max-width: 360px;
-    margin: 0 auto;
+    margin: 10vh auto 0 auto;
     background-color: #fff;
     box-shadow: 0 0 4px rgba(0,0,0,.14),
                 0 4px 8px rgba(0,0,0,.28);            
@@ -16,6 +16,12 @@
     max-width: 225px;
     height: auto;
     margin: 0 auto;
+}
+
+@media(min-width: 500px) {
+	.alt-login-card {
+        margin-top: 15px;
+    }
 }
 
 @media(min-width: 768px) {
