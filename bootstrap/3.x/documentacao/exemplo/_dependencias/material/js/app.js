@@ -68,33 +68,36 @@
                class="alt-login-logo" />
       </div>
 
-      <div class="alt-espacamento-top">
-          <label class="text-muted">Usuário</label>
-          <input type="text" 
-                  class="form-control"/>
-      </div>
+      <div class="alt-login-form-container">
 
-      <div class="alt-espacamento-top">
-          <label class="text-muted">Senha</label>
-          <input type="text" 
-                  class="form-control"/>
-      </div>
+        <div class="alt-espacamento-top">
+            <label class="text-muted">Usuário</label>
+            <input type="text" 
+                    class="form-control"/>
+        </div>
 
-      <div class="alt-espacamento-top">
-          <label class="text-muted">
-              <input type="checkbox" />
-              Manter conectado
-          </label>
-      </div>
+        <div class="alt-espacamento-top">
+            <label class="text-muted">Senha</label>
+            <input type="text" 
+                    class="form-control"/>
+        </div>
 
-      <div class="alt-espacamento-top">
-          <button type="button"
-                  exibe-loading
-                  class="btn btn-block btn-primary">Entrar</button>
-      </div>
+        <div class="alt-espacamento-top">
+            <label class="text-muted">
+                <input type="checkbox" />
+                Manter conectado
+            </label>
+        </div>
 
-      <div class="alt-espacamento-top text-right">
-          <a href="#">Esqueci minha senha</a>                       
+        <div class="alt-espacamento-top">
+            <button type="button"
+                    exibe-loading
+                    class="btn btn-block btn-primary">Entrar</button>
+        </div>
+
+        <div class="alt-espacamento-top text-right">
+            <a href="#">Esqueci minha senha</a>                       
+        </div>
       </div>
   </form>
 </div>`;

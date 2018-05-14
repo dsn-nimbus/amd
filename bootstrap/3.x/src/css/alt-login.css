@@ -1,35 +1,89 @@
+.alt-login-card form {
+    background-color: #3C7890;
+}
+
 .alt-login-card {
-    overflow: hidden;
-    padding: 20px;
-    max-width: 360px;
-    margin: 10vh auto 0 auto;
-    background-color: #fff;
-    box-shadow: 0 0 4px rgba(0,0,0,.14),
-                0 4px 8px rgba(0,0,0,.28);            
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+.alt-login-card .text-muted {
+    color: #FFF;
 }
 
 .alt-login-logo-container {
-    text-align: center;   
+    height: 45vh;
+    display: flex;
+    background-color: #FFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.alt-login-form-container {
+    height: 55vh;
+    padding: 40px;
 }
 
 .alt-login-logo {
-    max-width: 225px;
-    height: auto;
-    margin: 0 auto;
+    max-width:250px;
 }
 
-@media(min-width: 500px) {
-	.alt-login-card {
-        margin-top: 15px;
-    }
+.alt-login-card .btn-info {
+    background-color: transparent;
+    border: 2px solid white;
+    text-transform: capitalize;
+}
+.alt-login-card .btn-info.focus, 
+.alt-login-card .btn-info:focus, 
+.alt-login-card .btn-info:hover, 
+{
+    background-color: white;
+    color: #51a2c3;
+    border: 2px solid white;
+}
+.alt-login-card .btn-info.disabled.focus, .alt-login-card .btn-info.disabled:focus, .alt-login-card .btn-info.disabled:hover, .alt-login-card .btn-info[disabled].focus,.alt-login-card  .btn-info[disabled]:focus, .alt-login-card .btn-info[disabled]:hover, .alt-login-card fieldset[disabled] .alt-login-card .btn-info.focus, .alt-login-card fieldset[disabled] .alt-login-card .btn-info:focus, .alt-login-card fieldset[disabled] .btn-info:hover {
+    background-color: white;
+    color: #51a2c3;
+    border: 2px solid white;
 }
 
-@media(min-width: 768px) {
-    .alt-login-card {
-        padding: 45px;
+@media(min-width:768px) {
+    .alt-login-card form {
+        background-color: #FFF;
     }
 
+    .alt-login-card{
+        overflow:hidden;
+        padding:40px;
+        max-width:360px;
+        margin:10vh auto 0;
+        background-color:#fff;
+        box-shadow:0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+    }
+    .alt-login-card .text-muted {
+        color: #777;
+    }
+    
+    .alt-login-logo-container {
+        text-align:center;
+        height: 100%;
+    }
+    
     .alt-login-logo {
-        max-width: 250px;
+        max-width:225px;
+        height:auto;
+        margin:0 auto;
+    }
+
+    .alt-login-form-container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .alt-login-card .btn-info {
+        color: #fff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
     }
 }
