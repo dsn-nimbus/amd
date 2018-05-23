@@ -22,3 +22,11 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 480px) {
+  .alt-titulo-view-container .alt-complemento-titulo-view-container {
+    position: initial;
+    display: block;
+    margin-bottom: 5px;
+  }
+}
