@@ -47,12 +47,16 @@
 }
 
 .alt-imagem-usuario-dropdown {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .alt-informacoes-usuario-container .dropdown-menu {
   min-width: 250px;
+}
+
+.alt-informacoes-usuario-container .dropdown-menu p {
+  margin-bottom: 0;	
 }
 
 @media(min-width:400px) {
@@ -75,4 +79,11 @@
   .alt-imagem-usuario-cabecalho {
     margin-right: 0;
   }
+}
+
+@media(min-width: 768px) {
+	.alt-imagem-usuario-dropdown {
+		height: 100px;
+		width: 100px;
+	}
 }

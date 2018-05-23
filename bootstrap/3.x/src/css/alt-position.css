@@ -1,5 +1,21 @@
+.alt-overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.alt-overflow-y-hidden {
+  overflow-y: hidden;
+}
+
 .alt-overflow-hidden {
   overflow: hidden;
+}
+
+.alt-overflow-y-auto {
+  overflow-y: auto;
+}
+
+.alt-overflow-x-auto {
+  overflow-x: auto;
 }
 
 .alt-overflow-auto {
@@ -58,6 +74,38 @@
   margin-bottom: 0;
 }
 
+.alt-padding-pequeno-bottom {
+  padding-bottom: 5px;
+}
+
+.alt-padding-pequeno-top {
+  padding-top: 5px;
+}
+
+.alt-padding-pequeno-right {
+  padding-right: 5px;
+}
+
+.alt-padding-pequeno-left {
+  padding-left: 5px;
+}
+
+.alt-padding-bottom {
+  padding-bottom: 15px;
+}
+
+.alt-padding-top {
+  padding-top: 15px;
+}
+
+.alt-padding-right {
+  padding-right: 15px;
+}
+
+.alt-padding-left {
+  padding-left: 15px;
+}
+
 .alt-espacamento-pequeno-bottom {
   margin-bottom: 5px;
 }
@@ -66,7 +114,7 @@
   margin-top: 5px;
 }
 
-.alt-espacament-pequeno-right {
+.alt-espacamento-pequeno-right {
   margin-right: 5px;
 }
 

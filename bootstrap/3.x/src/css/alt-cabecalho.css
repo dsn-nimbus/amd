@@ -10,6 +10,11 @@
     font-size: 13px;
 }
 
+#alt-cabecalho .alt-navbar-brand-logo-container img {
+	height: 30px;
+	width: auto;
+}
+
 .navbar-brand.alt-nao-redimensiona-mobile {
   padding: 13px;
 }
