@@ -26,6 +26,7 @@
   background-color: #fcfdfe;
   border: none;
   border-bottom: 3px solid #558B2F;
+  margin-bottom: -1px;
 }
 
 .modal-header .modal-title {
