@@ -32,9 +32,8 @@ input[type="checkbox"]:checked + .alt-checkbox:before{
   animation: effect 250ms ease-in;
 }
 
-input[type="checkbox"]:disabled + .alt-checkbox:before{
-  content: "\f0c8";
-  color: transparent;
+input[type="checkbox"]:checked:disabled + .alt-checkbox:before{
+  color: #999;
 }
 
 
@@ -71,7 +70,6 @@ input[type="radio"]:checked + .alt-radio:before{
   animation: effect 250ms ease-in;
 }
 
-input[type="radio"]:disabled + .alt-radio:before{
-  content: "\f0c8";
-  color: transparent;
+input[type="radio"]:checked:disabled + .alt-radio:before{
+  color: #999;
 }
