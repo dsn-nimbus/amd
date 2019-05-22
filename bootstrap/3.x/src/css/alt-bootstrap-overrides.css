@@ -83,7 +83,7 @@
 
 .nav-tabs > li > a {
   border-radius: 0;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 
 .modal-header {
@@ -91,12 +91,16 @@
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 700;
+}
+.semibold {
+  font-weight: 600;
 }
 
 .label-danger,
 .label-info,
-.label-success {
+.label-success,
+.label-warning {
   background-color: transparent;
   font-size: 90%;
   font-weight: normal;
@@ -117,6 +121,10 @@
   color: #00AB00;
 }
 
+.label-warning {
+  border: 1px solid #f0ad4e;
+  color: #f0ad4e;
+}
 .table > tbody > tr {
   word-break: break-word;
 }
