@@ -12,6 +12,7 @@
     right: 5px;
 }
 
-.table td .alt-campo-data-container .alt-icone-data {
+.table td .alt-campo-data-container .alt-icone-data,
+.alt-campo-data-container .alt-icone-data.no-label {
 	top: 10px;
 }
