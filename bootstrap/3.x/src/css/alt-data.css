@@ -16,3 +16,8 @@
 .alt-campo-data-container .alt-icone-data.no-label {
 	top: 10px;
 }
+
+.alt-campo-data-dropdown-alinhado-direita .dropdown-menu{
+    left: auto !important;
+    right:0;
+}
