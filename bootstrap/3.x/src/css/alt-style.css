@@ -28,6 +28,17 @@ form {
               0 4px 8px rgba(0,0,0,.28);
 }
 
+.alt-sombra-secundaria-ivertida {
+  box-shadow: 0 1px 0 #e5e5e5,
+              0 0 2px rgba(0,0,0,.12),
+              0 -2px 4px rgba(0,0,0,.24);
+}
+
+.alt-sombra-primaria-invertida {
+  box-shadow: 0 0 4px rgba(0,0,0,.14),
+              0 -4px 8px rgba(0,0,0,.28);
+}
+
 input.ng-invalid.ng-dirty,
 input.ng-invalid.alt-validavel-sem-dirty,
 textarea.ng-invalid.ng-dirty,
@@ -81,4 +92,14 @@ select.alt-input-invalido {
 
 select {
   border-color: #ccc;
+}
+
+.alt-sticky-top {
+  position:sticky;
+  top:0;
+}
+
+.alt-sticky-bottom {
+  position:sticky;
+  bottom:0;
 }
