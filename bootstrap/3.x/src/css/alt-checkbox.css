@@ -65,7 +65,7 @@ input[type="radio"] + .alt-radio:before{
 }
 
 input[type="radio"]:checked + .alt-radio:before{
-  content: "\f111";
+  content: "\f192";
   color: #4682B4;
   animation: effect 250ms ease-in;
 }
