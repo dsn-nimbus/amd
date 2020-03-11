@@ -1,9 +1,9 @@
 .alt-imagem-usuario-cabecalho {
   border-radius: 100%;
   cursor: pointer;
-  width: 40px;
-  height: 40px;
-  margin-top: 8px;
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
   margin-right: 10px;
   box-shadow: 0 0 1px #fff;
 }
@@ -14,13 +14,13 @@
 
 .alt-informacoes-usuario-container .dropdown-menu {
   padding: 10px;
-  margin-top: 7px;
+  margin-top: 13px;
 }
 
 .alt-informacoes-usuario-container .dropdown-menu:before {
   position: absolute;
   top: -7px;
-  right: 13px;
+  right: 8px;
   display: inline-block;
   border-right: 7px solid transparent;
   border-bottom: 7px solid #ccc;
@@ -32,7 +32,7 @@
 .alt-informacoes-usuario-container .dropdown-menu:after {
   position: absolute;
   top: -6px;
-  right: 14px;
+  right: 9px;
   display: inline-block;
   border-right: 6px solid transparent;
   border-bottom: 6px solid #fff;
